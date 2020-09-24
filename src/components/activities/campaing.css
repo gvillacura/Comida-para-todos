@@ -1,0 +1,12 @@
+.campaingContainer {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.campaingTitle{
+    text-align: center;
+}
+
+.campaing{
+    display: flex;
+}
