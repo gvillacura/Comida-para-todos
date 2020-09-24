@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    padding: 0 10px;
+}
+
+li{
+    padding: 0 7px;
+}
