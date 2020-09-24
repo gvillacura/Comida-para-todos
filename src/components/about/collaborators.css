@@ -1,0 +1,10 @@
+.coll-title{
+    text-align: center;
+}
+
+.coll-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 2% 5%;
+}
