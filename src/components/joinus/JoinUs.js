@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Header from '../header/Header';
 import Infogram from './Infrogram';
+import Quote from './Quote';
 import WaysTo from './WaysTo';
 
 const JoinUs = () => {
@@ -9,6 +10,7 @@ const JoinUs = () => {
             <Header />
             <Infogram />
             <WaysTo />
+            <Quote />
         </Fragment>
     )
 }

@@ -1,0 +1,22 @@
+.way{
+    padding: 2% 5%;
+    width:100%;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.ways-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ways{
+    padding: 2%;
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 5%;
+}
