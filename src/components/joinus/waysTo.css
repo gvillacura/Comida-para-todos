@@ -14,9 +14,17 @@
 .ways{
     padding: 2%;
     width: 20%;
-    height: 150px;
+    height: auto;
     text-align: center;
     text-align: center;
     border: solid 1px gray;
     border-radius: 5%;
+}
+
+.ways>img{
+    width:100%;
+}
+
+.sub-title{
+    font-family: 'Montserrat', sans-serif;
 }

@@ -6,12 +6,12 @@ const Objectives = () => {
         <Fragment>
             <h2 className="obj-title">Objetivos</h2>
             <div className="obj-container">
-                    <p>Lorem ipsum</p>
-                    <p>Lorem ipsum</p>
-                    <p>Lorem ipsum</p>
-                    <p>Lorem ipsum</p>
-                    <p>Lorem ipsum</p>
-                    <p>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
+                    <p><i class="fas fa-star"></i>Lorem ipsum</p>
             </div>
         </Fragment>
     )

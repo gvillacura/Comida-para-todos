@@ -1,0 +1,13 @@
+.activitiesHomeContainer{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.activitiesHomeImg, .activitiesHomeDescription{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+}

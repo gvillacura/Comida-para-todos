@@ -1,0 +1,32 @@
+.aboutHomeContainer{
+    display: flex;
+    width: 90%;
+    padding: 0 5%;
+}
+
+.aboutHomeItem{
+    text-align: center;
+}
+
+.aboutHomeItem>p{    
+    text-align: initial;
+    padding: 0 10%;
+}
+
+.aboutHomeItem>h4 {
+    font-family: Montserrat;
+    color:#C05111;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.aboutHomeItem>button{
+    display: flex;
+    margin: 0 10%;
+    font-family: Roboto;
+    font-size: 16px;
+    border: 1px solid #212429;
+    border-radius: 4px;
+    color: #495057;
+    background: transparent;
+}

@@ -1,0 +1,18 @@
+.gallery-container{
+    box-sizing: border-box;
+    width:100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item-gallery{
+    box-sizing: border-box;
+    width: 100%;
+    padding:0;
+    border: solid 1px gray;
+}
+
+.item-gallery>img{
+    width: 100%;
+}

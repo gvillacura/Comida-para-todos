@@ -5,4 +5,9 @@
 
 .us-title{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-info>img{
+    width:100%;
 }

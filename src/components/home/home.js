@@ -1,11 +1,14 @@
 import React, {Fragment} from 'react';
 import Header from '../header/Header';
+import AboutHome from './AboutHome'
+import ActivitiesHome from './ActivitiesHome'
 
 const Home = () => {
     return(
         <Fragment>
             <Header/>
-            <h1>Home</h1>
+            <AboutHome/>
+            <ActivitiesHome/>
         </Fragment>
     )
 }
