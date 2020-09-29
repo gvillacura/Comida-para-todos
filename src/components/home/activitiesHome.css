@@ -4,10 +4,24 @@
     padding: 0;
     display: grid;
     grid-template-columns: auto auto;
+    margin-top:5%;
 }
 
-.activitiesHomeImg, .activitiesHomeDescription{
+.activitiesHomeImg{
     box-sizing: border-box;
     width: 100%;
     padding: 0;
+}
+
+.activitiesHomeImg>img{
+    max-height: 280px;
+}
+
+.activitiesHomeDescription{
+    margin: 7%;
+    width:80%;
+} 
+
+.activitiesHomeDescription a{
+    color: #C05111
 }

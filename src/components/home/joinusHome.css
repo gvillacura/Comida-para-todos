@@ -1,0 +1,32 @@
+.joinusHomeContainer{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2% 5%;
+    width: 100%;
+    align-items: center;
+}
+
+.joinusHomeItemContainer{
+    display:flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.joinusHomeContainer button{
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #212429;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #495057;
+    background:transparent;
+    padding: 1.2%;
+    width: 13%;
+}
+
+.joinusHomeItemContainer>div{
+    margin: 8%;
+}

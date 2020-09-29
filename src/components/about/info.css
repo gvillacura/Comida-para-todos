@@ -11,3 +11,12 @@
 .container-info>img{
     width:100%;
 }
+
+.container-info>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #495057;
+}

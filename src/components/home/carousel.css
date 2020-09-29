@@ -1,0 +1,6 @@
+.carousel .slide{
+    padding: 0;
+}
+.carousel .control-dots{
+    justify-content: center;
+}

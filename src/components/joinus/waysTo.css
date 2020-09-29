@@ -25,6 +25,20 @@
     width:100%;
 }
 
+.ways>button{
+    margin: 0 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #212429;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #495057;
+    background: transparent;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+}
+
 .sub-title{
     font-family: 'Montserrat', sans-serif;
 }

@@ -4,29 +4,66 @@
     padding: 0 5%;
 }
 
+img{
+    width:100%
+}
+.btn-donate{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    width: 15%;
+    height: 35px;
+    background-color: #C05111;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    border: none;
+}
+
 .aboutHomeItem{
     text-align: center;
 }
 
-.aboutHomeItem>p{    
+.aboutHomeItem>p{   
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
     text-align: initial;
     padding: 0 10%;
+    color: #495057;
 }
+
+
 
 .aboutHomeItem>h4 {
-    font-family: Montserrat;
-    color:#C05111;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 2rem;
+    line-height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #C05111;
+    padding: 0 10%;
+    margin: 10% auto auto;
 }
 
+
 .aboutHomeItem>button{
+    justify-content: center;
     display: flex;
     margin: 0 10%;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     border: 1px solid #212429;
-    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
     color: #495057;
     background: transparent;
+    padding: 2%;
+    width: 25%;
+    text-align: center;
 }

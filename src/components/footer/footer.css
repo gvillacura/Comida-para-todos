@@ -1,0 +1,17 @@
+.footerContainer{
+    background: #212429;
+}
+
+.itemsContainer{
+    display:flex;
+}
+
+.itemsContainer>div {
+    margin:2%;
+}
+
+.logoFooter {
+    width: 63px;
+    height: auto;
+    margin: 2%;
+}
