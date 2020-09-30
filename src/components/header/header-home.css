@@ -11,12 +11,22 @@
     z-index:1;
 }
 
+.header>div{
+    background-color: #C05111;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    padding: 1.2% 1.5%;
+    margin-left: 5%;
+    height: 105%;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width:40%;
 }
+
 a{
     text-decoration: none;
     color:white;
@@ -28,12 +38,15 @@ a{
     background-size: 0% 2px;
     transition: background-size .3s;
 }
+
 a:focus, a:visited{
     background-size: 60% 2px;
 }
+
 #root > header > nav > ul > li:nth-child(4) > a{
     color:#C05111;
 }
+
 ul{
     display: flex;
     width:100%;
@@ -47,7 +60,7 @@ li{
 }
 
 .logo{
-    width: 60px;
-    height: 60px;
-    margin:1% auto auto 5%;
+    width: 77px;
+    height: 84px;
+    margin:1% auto;
 }

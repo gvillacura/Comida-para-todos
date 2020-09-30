@@ -1,23 +1,25 @@
 .aboutHomeContainer{
     display: flex;
-    width: 90%;
-    padding: 0 5%;
+    padding: 0px 20%;
 }
 
 img{
     width:100%
 }
+
 .btn-donate{
     position: absolute;
     left: 3%;
     top: 70%;
-    width: 15%;
-    height: 35px;
+    width: 17%;
+    height: 48px;
     background-color: #C05111;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .aboutHomeItem{
@@ -32,7 +34,7 @@ img{
     line-height: 21px;
     text-align: initial;
     padding: 0 10%;
-    color: #495057;
+    color: #333333;
 }
 
 
@@ -46,13 +48,23 @@ img{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    color: #C05111;
+    color:#495057;
     padding: 0 10%;
     margin: 10% auto auto;
 }
 
+#root > div.aboutHomeContainer > div:nth-child(1) > h4:nth-child(2){
+    color: #C05111;
+    margin-top: 0;
+}
+
+#root > div.aboutHomeContainer > div:nth-child(2) > h4:nth-child(2){
+    color: #C05111;
+    margin-top: 0;
+}
 
 .aboutHomeItem>button{
+    align-items: center;
     justify-content: center;
     display: flex;
     margin: 0 10%;
@@ -64,6 +76,11 @@ img{
     color: #495057;
     background: transparent;
     padding: 2%;
-    width: 25%;
-    text-align: center;
+    width: 54%;
+    height: 47px;
+    cursor: pointer;
+}
+
+#root > div.aboutHomeContainer > div:nth-child(1) > button{
+    width: 59%;
 }

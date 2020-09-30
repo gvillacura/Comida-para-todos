@@ -8,9 +8,10 @@ import './carousel.css';
 
 const Slider = () => {
     return (
-        <Carousel autoPlay infiniteLoop showArrows={false} showStatus={false} showThumbs={false}>
+        <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false} showIndicators={false}>
             <div>
                 <img src={Hero1} alt="img-slider1"/>
+                <button type="button" className="btn-donate">Súmate</button>
             </div>
             <div>
                 <img src={Hero2} alt="img-slider2"/>

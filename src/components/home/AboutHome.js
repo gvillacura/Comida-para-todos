@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react';
 import './aboutHome.css';
-import Hero1 from '../../img/Hero1.png'
 
 const AboutHome = () => {
     return (
         <Fragment>
             <div className="aboutHomeContainer">
                 <div className="aboutHomeItem">
-                    <h4>¿QUIÉNES SOMOS?</h4>
+                    <h4>¿QUIÉNES</h4> <h4>SOMOS?</h4>
                     <p>Somos un red colaborativa comunitaria,
                     que promueve los pilares de la seguridad
                     alimentaria como un derecho humano.
@@ -15,7 +14,7 @@ const AboutHome = () => {
                     <button type="button">Conócenos</button>
                 </div>
                 <div className="aboutHomeItem">
-                    <h4>¿QUÉ HACEMOS?</h4>
+                    <h4>¿QUÉ</h4> <h4>HACEMOS?</h4>
                     <p>Creamos una plataforma solidaria, donde
                     brindamos alimento y esperanza a las familias
                     en todo el territorio nacional.

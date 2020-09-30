@@ -7,7 +7,9 @@ const HeaderHome = () => {
 
     return (
         <header className="header">
-            <img src={logo} alt="logo" className="logo" />
+            <div>
+                <img src={logo} alt="logo" className="logo" />
+            </div>
             <nav>
                 <ul>
                     <li>

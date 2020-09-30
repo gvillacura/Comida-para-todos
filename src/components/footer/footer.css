@@ -1,13 +1,84 @@
 .footerContainer{
     background: #212429;
+    display:flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    box-sizing: border-box;
 }
 
-.itemsContainer{
-    display:flex;
+.itemsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .itemsContainer>div {
-    margin:2%;
+    margin:0;
+}
+
+.aboutFooter > h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.aboutFooter > h4:nth-child(1){
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+.findUsFooter{
+    width: 35%;
+}
+
+.findUsFooter > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.findUsFooter > div > svg {
+    margin-right: 5%;
+    font-size: 1.9375rem;
+    color: #ACB5BD;
+}
+
+.findUsFooter > div > div > h4{
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.rrssFooter>h4 {
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.rrssFooter>svg{
+    font-size: 1.56rem;
+    margin: 5% 15% auto auto;
+    color: #ACB5BD;
+}
+
+.pFooter{ 
+    margin:0 0 5% 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ACB5BD;
 }
 
 .logoFooter {

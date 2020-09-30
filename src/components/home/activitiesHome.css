@@ -1,6 +1,7 @@
 .activitiesHomeContainer{
     box-sizing: border-box;
     width: 100%;
+    background: #F8F9FA;
     padding: 0;
     display: grid;
     grid-template-columns: auto auto;
@@ -14,14 +15,37 @@
 }
 
 .activitiesHomeImg>img{
-    max-height: 280px;
+    height: 100%;
 }
 
 .activitiesHomeDescription{
     margin: 7%;
     width:80%;
+    padding: 0 3%;
 } 
 
 .activitiesHomeDescription a{
-    color: #C05111
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C05111;
+}
+
+.newsTitle {
+    text-align: initial;
+    font-family: Montserrat;
+    font-size: 28px;
+    color: #495057;
+}
+
+.activitiesHomeDescription p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212429;
 }

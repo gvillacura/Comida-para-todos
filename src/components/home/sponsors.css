@@ -1,0 +1,27 @@
+.sponsorsContainer{
+    margin-top: 5%;
+}
+.sponsorsItemContainer>img {
+    width:100%;
+}
+
+.sponsorsItemContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    margin: 2%;
+}
+
+.sponsorsTitle{
+    font-family: Montserrat;
+    display: flex;
+    margin-right: 2%;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: right;
+    color: #495057;
+    justify-content: center;
+}
+
+#root > div.sponsorsContainer > div:nth-child(1) > h3:nth-child(2){
+    color: #C05111;
+}
