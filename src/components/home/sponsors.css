@@ -1,5 +1,5 @@
 .sponsorsContainer{
-    margin-top: 5%;
+    margin: 5% auto 10%;
 }
 .sponsorsItemContainer>img {
     width:100%;
@@ -8,20 +8,22 @@
 .sponsorsItemContainer{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-column-gap: 1%;
     margin: 2%;
 }
 
-.sponsorsTitle{
+.sponsorsTitle {
     font-family: Montserrat;
     display: flex;
-    margin-right: 2%;
-    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
     line-height: 34px;
     text-align: right;
     color: #495057;
     justify-content: center;
 }
-
-#root > div.sponsorsContainer > div:nth-child(1) > h3:nth-child(2){
+#root > div.sponsorsContainer > div.sponsorsTitle > h4:nth-child(2){
     color: #C05111;
+    margin-left: 1%;
 }

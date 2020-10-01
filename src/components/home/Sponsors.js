@@ -13,18 +13,18 @@ const Sponsors =() => {
     return(
         <div className="sponsorsContainer">
             <div className="sponsorsTitle">
-                <h3>NUESTROS</h3>
-                <h3>PATROCINADORES</h3>
+                <h4>NUESTROS</h4>
+                <h4>PATROCINADORES</h4>
             </div>
             <div className="sponsorsItemContainer">
-                <img src={Sponsor1}/>
-                <img src={Sponsor2}/>
-                <img src={Sponsor3}/>
-                <img src={Sponsor4}/>
-                <img src={Sponsor5}/>
-                <img src={Sponsor6}/>
-                <img src={Sponsor7}/>
-                <img src={Sponsor8}/>
+                <img src={Sponsor1} alt="sponsor-img"/>
+                <img src={Sponsor2} alt="sponsor-img"/>
+                <img src={Sponsor3} alt="sponsor-img"/>
+                <img src={Sponsor4} alt="sponsor-img"/>
+                <img src={Sponsor5} alt="sponsor-img"/>
+                <img src={Sponsor6} alt="sponsor-img"/>
+                <img src={Sponsor7} alt="sponsor-img"/>
+                <img src={Sponsor8} alt="sponsor-img"/>
             </div>
         </div>
     )

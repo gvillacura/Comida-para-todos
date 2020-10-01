@@ -31,7 +31,7 @@ a{
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 350;
     background-image: linear-gradient(white, white);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -40,11 +40,12 @@ a{
 }
 
 a:focus, a:visited{
+    font-weight: 400;
     background-size: 60% 2px;
 }
 
 #root > header > nav > ul > li:nth-child(4) > a{
-    color:#C05111;
+    color:#EC8950;
 }
 
 ul{

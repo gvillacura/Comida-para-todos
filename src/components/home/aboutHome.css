@@ -16,7 +16,8 @@ img{
     background-color: #C05111;
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -36,8 +37,6 @@ img{
     padding: 0 10%;
     color: #333333;
 }
-
-
 
 .aboutHomeItem>h4 {
     font-family: 'Montserrat', sans-serif;
@@ -69,18 +68,16 @@ img{
     display: flex;
     margin: 0 10%;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    border: 1px solid #212429;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border: 1px solid #C05111;
     box-sizing: border-box;
     border-radius: 8px;
-    color: #495057;
+    color: #C05111;
     background: transparent;
     padding: 2%;
-    width: 54%;
+    width: 56%;
     height: 47px;
     cursor: pointer;
 }
 
-#root > div.aboutHomeContainer > div:nth-child(1) > button{
-    width: 59%;
-}
