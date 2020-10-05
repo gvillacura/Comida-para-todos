@@ -24,14 +24,17 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width:40%;
+    width:45%;
+    margin-right: 2%;
 }
 
 a{
     text-decoration: none;
-    color:white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 350;
+    color:#FCFCFC;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: lighter;
+    font-size:1.125rem;
+    line-height: 22px;
     background-image: linear-gradient(white, white);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -40,7 +43,7 @@ a{
 }
 
 a:focus, a:visited{
-    font-weight: 400;
+    font-weight: bolder;
     background-size: 60% 2px;
 }
 

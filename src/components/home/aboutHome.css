@@ -23,6 +23,23 @@ img{
     cursor: pointer;
 }
 
+.btn-donate2{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    width: 17%;
+    height: 48px;
+    background-color: #C05111;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left:5%;
+}
+
 .aboutHomeItem{
     text-align: center;
 }

@@ -18,6 +18,7 @@ const Slider = () => {
             </div>
             <div>
                 <img src={Hero3} alt="img-slider3"/>
+                <button type="button" className="btn-donate2">Visitanos</button>
             </div>
         </Carousel>
     )

@@ -11,7 +11,7 @@
     padding: 2%;
 }
 
-.pillars-container > div:nth-child(2){
+/* .pillars-container > div:nth-child(2){
     border-left: 1px solid #DDE2E5;
 }
 
@@ -21,6 +21,15 @@
 
 .pillars-container > div:nth-child(4){
     border-left: 1px solid #DDE2E5;
+} */
+
+.pillars-container > hr {
+    height: 6rem;
+    margin: 8% 1% 0 0;
+   /*  color: #dde2e5; */
+    border-style: solid;
+    background-color: #e1e4e680;
+    border-color: #e1e4e680;
 }
 
 .pillars-container>div>img{

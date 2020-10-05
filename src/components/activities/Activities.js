@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Header from '../header/Header';
+import HeaderHome from '../header/HeaderHome';
 import Campaing from './Campaing';
 import Photos from './Photos'
 import News from './News';
@@ -7,7 +7,7 @@ import News from './News';
 const Activities = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderHome />
             <div className="activitiesContainer">
                 <Campaing />
                 <Photos />

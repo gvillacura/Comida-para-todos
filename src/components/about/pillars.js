@@ -13,16 +13,19 @@ const Pillars = () => {
                 <h4>Alimento Bueno</h4>
                 <p>Distribuir alimento de calidad, nutritivo y cuidado, a quienes más lo necesitan</p>
             </div>
+            <hr></hr>
             <div>
                 <img src={empleo} alt="empleo"/>
                 <h4>Empleo</h4>
                 <p>Fomentar el empleo, enfocado en los sectores productivos más vulnerables</p>
             </div>
+            <hr></hr>
             <div>
                 <img src={comunidad} alt="comunidad"/>
                 <h4>Comunidad</h4>
                 <p>Crear y trabajar junto a la comunidad, forjar redes y estando al servicio de ella</p>
             </div>
+            <hr></hr>
             <div>
                 <img src={educacion} alt="educación"/>
                 <h4>Educación</h4>
