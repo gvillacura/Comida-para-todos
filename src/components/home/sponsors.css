@@ -1,5 +1,5 @@
 .sponsorsContainer{
-    margin: 5% auto 10%;
+    margin: 5% 5% 10%;
 }
 .sponsorsItemContainer>img {
     width:100%;
@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-column-gap: 1%;
-    margin: 2%;
 }
 
 .sponsorsTitle {

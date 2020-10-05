@@ -1,6 +1,5 @@
 .container-info{
-    width:90%;
-    padding: 0 5%;
+    width:100%;
 }
 
 .us-title{
@@ -12,11 +11,30 @@
     width:100%;
 }
 
+.container-info>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-info>div>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color:#495057;
+}
+
+.container-info > div > h1:nth-child(2){
+    color:#C05111;
+    margin-left:1%;
+}
 .container-info>p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: #495057;
+    color: #212429;
+    padding: 0 15%;
 }
+

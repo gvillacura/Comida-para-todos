@@ -1,20 +1,20 @@
 import React, { Fragment } from 'react';
-import Header from '../header/Header';
-import Collaborators from './Collaborators';
-import Goals from './Goals';
+import HeaderHome from '../header/HeaderHome';
 import Info from './Info';
-import Objectives from './Objectives';
+import Pillars from './pillars';
 import Team from './Team';
+import Sponsors from '../home/Sponsors';
+import Footer from '../footer/Footer';
 
 const AboutUs = () => {
     return (
         <Fragment>
-            <Header />
+            <HeaderHome />
             <Info />
+            <Pillars />
             <Team />
-            <Collaborators />
-            <Objectives />
-            <Goals />
+            <Sponsors />
+            <Footer />
         </Fragment>
     )
 }

@@ -14,7 +14,7 @@ const Sponsors =() => {
         <div className="sponsorsContainer">
             <div className="sponsorsTitle">
                 <h4>NUESTROS</h4>
-                <h4>PATROCINADORES</h4>
+                <h4>COLABORADORES</h4>
             </div>
             <div className="sponsorsItemContainer">
                 <img src={Sponsor1} alt="sponsor-img"/>
