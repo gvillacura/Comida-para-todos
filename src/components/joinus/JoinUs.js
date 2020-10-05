@@ -1,20 +1,26 @@
-import React, { Fragment } from 'react';
-import Header from '../header/Header';
-import Gallery from './gallery';
-import Infogram from './Infrogram';
-import Quote from './Quote';
-import WaysTo from './WaysTo';
+import React, { Fragment } from "react";
+import Header from "../header/HeaderHome";
+import ImageJoinus from "./ImageJoinus";
+import Infogram from "../home/Infogram";
+import Network from "./Network";
+import WaysTo from "./WaysTo";
+import ActivitiesHome from "../home/ActivitiesHome";
+import Sponsors from "../home/Sponsors";
+import Footer from "../footer/Footer";
 
 const JoinUs = () => {
-    return (
-        <Fragment>
-            <Header />
-            <Infogram />
-            <WaysTo />
-            <Quote />
-            <Gallery />
-        </Fragment>
-    )
-}
+  return (
+    <Fragment>
+      <Header />
+      <ImageJoinus />
+      <Infogram />
+      <Network />
+      <WaysTo />
+      <ActivitiesHome />
+      <Sponsors />
+      <Footer />
+    </Fragment>
+  );
+};
 
 export default JoinUs;

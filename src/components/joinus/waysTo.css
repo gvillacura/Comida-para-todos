@@ -1,44 +1,123 @@
-.way{
-    padding: 2% 5%;
-    width:100%;
-    background-color: lightgray;
-    box-sizing: border-box;
+.waysContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 10% 2% 5% 2%;
+  width: 95%;
+  align-items: center;
 }
 
-.ways-container{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+#root > div.waysContainer > div:nth-child(1) {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-.ways{
-    padding: 2%;
-    width: 20%;
-    height: auto;
-    text-align: center;
-    text-align: center;
-    border: solid 1px gray;
-    border-radius: 5%;
+.waysContainer > div > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #495057;
+  margin: 0;
 }
 
-.ways>img{
-    width:100%;
+.lunch-container > div > div > h3 > svg,
+.resources-container > div > div > h3 > svg {
+  margin-right: 5%;
+  color: #c05111;
+  font-size: 1.5rem;
 }
 
-.ways>button{
-    margin: 0 10%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    border: 1px solid #212429;
-    box-sizing: border-box;
-    border-radius: 8px;
-    color: #495057;
-    background: transparent;
-    padding: 2%;
-    width: 50%;
-    text-align: center;
+.lunch-container > div > div > p,
+.resources-container > div > div > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212429;
+  padding-left: 15%;
 }
 
-.sub-title{
-    font-family: 'Montserrat', sans-serif;
+#root > div.waysContainer > div:nth-child(1) > h4:nth-child(2) {
+  color: #c05111;
+  margin-top: 0;
+  margin-left: 1%;
+}
+
+.lunch-container > div > div > h3,
+.resources-container > div > div > h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #495057;
+}
+
+.waysItemContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.waysItemContainer hr {
+  height: 19rem;
+  margin: 2.7rem 1rem 0 0;
+  color: #dde2e5;
+  border-style: solid;
+}
+
+.resources-container,
+.lunch-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.lunch-container {
+  margin-right: 2rem;
+}
+
+.resources-container > div:nth-child(1),
+.lunch-container > div:nth-child(1) {
+  display: flex;
+  height: 80%;
+  margin-bottom: 4%;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.waysto-donate-btn {
+  margin-top: 4%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 45%;
+  height: 48px;
+  background-color: #c05111;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-btn {
+  margin-top: 4%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  width: 17%;
+  height: 48px;
+  border: 1px solid #c05111;
+  color: #c05111;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+}
+.waysto-donate-btn > svg {
+  margin-right: 5%;
 }

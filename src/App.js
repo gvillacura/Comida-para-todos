@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import JoinUs from './components/joinus/JoinUs';
-import AboutUs from './components/about/About';
-import Activities from './components/activities/Activities';
-import Home from './components/home/Home';
+import JoinUs from "./components/joinus/JoinUs";
+import AboutUs from "./components/about/About";
+import Activities from "./components/activities/Activities";
+import Home from "./components/home/Home";
 
 function App() {
   return (
@@ -25,7 +25,6 @@ function App() {
         <Route path="/activities">
           <Activities />
         </Route>
-
       </Switch>
     </Router>
   );

@@ -1,0 +1,44 @@
+.way2 {
+    padding: 2% 5%;
+    width: 100%;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.ways-container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ways2 {
+    padding: 2%;
+    width: 20%;
+    height: auto;
+    text-align: center;
+    text-align: center;
+    border: solid 1px gray;
+    border-radius: 5%;
+}
+
+.ways2>img {
+    width: 100%;
+}
+
+.ways2>button {
+    margin: 0 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border: 1px solid #212429;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #495057;
+    background: transparent;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.sub-title {
+    font-family: 'Montserrat', sans-serif;
+}
