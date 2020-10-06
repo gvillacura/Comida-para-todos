@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./waysTo.css";
+import Modal from "../modal/Modal";
 import { Icon } from "@iconify/react";
 import packageIcon from "@iconify/icons-feather/package";
 import awardIcon from "@iconify/icons-feather/award";
@@ -8,6 +9,14 @@ import coffeeIcon from "@iconify/icons-feather/coffee";
 import heartIcon from "@iconify/icons-feather/heart";
 
 const JoinusHome = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+  const openModal = () => {
+    setShowModal(true);
+  };
   return (
     <div className="waysContainer">
       <div>
@@ -73,12 +82,13 @@ const JoinusHome = () => {
             </div>
           </div>
           <div className="btn-container">
-            <button type="button" className="contact-btn">
+            <button type="button" className="contact-btn" onClick={openModal}>
               Contáctanos
             </button>
           </div>
         </div>
       </div>
+      {showModal === false ? null : <Modal close={closeModal} />}
     </div>
   );
 };
