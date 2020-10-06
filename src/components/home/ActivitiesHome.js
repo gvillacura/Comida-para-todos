@@ -29,7 +29,7 @@ const ActivitiesHome = () => {
                     <p> Cada día se suman más empredimientos a nuestra red,
                     formando así un ciclo económico sustentable y que genere impacto social.
                 </p>
-                    <Link to="/activities">Nuestros emprendimientos <Icon icon={arrowRight} /></Link>
+                    <Link to="/catalogue">Nuestros emprendimientos <Icon icon={arrowRight} /></Link>
                 </div>
                 <div className="activitiesHomeImg">
                     <img src={act2} alt="activitiesHomeImg" />

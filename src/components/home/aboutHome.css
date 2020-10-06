@@ -16,10 +16,12 @@ img{
     background-color: #C05111;
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -32,12 +34,14 @@ img{
     background-color: #C05111;
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     border: none;
     cursor: pointer;
     margin-left:5%;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .aboutHomeItem{
@@ -48,8 +52,8 @@ img{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 19px;
     text-align: initial;
     padding: 0 10%;
     color: #333333;
@@ -86,7 +90,7 @@ img{
     margin: 0 10%;
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: bold;
     border: 1px solid #C05111;
     box-sizing: border-box;
     border-radius: 8px;

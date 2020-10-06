@@ -12,19 +12,20 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .joinusHomeContainer>div>h4 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color:#495057;
     margin:0;
 }
 
 .joinusHomeItemContainer>div>h3>svg{
-    margin-right:5%;
+    margin-right:2%;
     color: #C05111;
     font-size: 1.5rem;
 }
@@ -33,10 +34,10 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 19px;
     color: #212429;
-    padding-left:15%;
+    padding-left:10%;
 }
 
 #root > div.joinusHomeContainer > div:nth-child(1) > h4:nth-child(2){
@@ -49,8 +50,9 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.125rem;
     color:#495057;
+    display: flex;
 }
 
 .joinusHomeItemContainer{
@@ -71,14 +73,15 @@
     background-color: #C05111;
     color:white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    margin: 6% 0 4.6% 0;
+    margin: 2% 0 4.6% 0;
+    text-transform: uppercase;
 }
 
-.donate-btn>svg{
-    margin-right: 5%;
-}
+
+
+

@@ -24,25 +24,25 @@ const Team = () => {
                 <div className="team">
                     <div className="team-member">
                         <img src={rafa} alt="avatar-img" />
-                        <h5>Director Ejecutivo</h5>
+                        <h5>Dir. Ejecutivo</h5>
                         <p>Rafael Rincón</p>
                     </div>
 
                     <div className="team-member">
                         <img src={enriqueG} alt="avatar-img" />
-                        <h5>Director Finanzas</h5>
+                        <h5>Dir. Finanzas</h5>
                         <p>Enrique Gellona</p>
                     </div>
 
                     <div className="team-member">
                         <img src={hans} alt="avatar-img" />
-                        <h5>Director Finanzas</h5>
+                        <h5>Dir. Finanzas</h5>
                         <p>Hans Rautenberg</p>
                     </div>
 
                     <div className="team-member">
                         <img src={sebastian} alt="avatar-img" />
-                        <h5>Director Innovación</h5>
+                        <h5>Dir. Innovación</h5>
                         <p>Sebastián Gatica</p>
                     </div>
 
@@ -72,25 +72,25 @@ const Team = () => {
 
                     <div className="team-member">
                         <img src={eleanore} alt="avatar-img" />
-                        <h5>Coord. Voluntariado</h5>
+                        <h5>Coord. Voluntarios</h5>
                         <p>Eleanore Hendersson</p>
                     </div>
 
                     <div className="team-member">
                         <img src={carlos} alt="avatar-img" />
-                        <h5>Consultor Estratégico</h5>
+                        <h5>Cons. Estratégico</h5>
                         <p>Carlos Román</p>
                     </div>
 
                     <div className="team-member">
                         <img src={maria} alt="avatar-img" />
-                        <h5>Coord. de Proyectos</h5>
+                        <h5>Coord. Proyectos</h5>
                         <p>Maria José de La Fuente</p>
                     </div>
 
                     <div className="team-member">
                         <img src={enzo} alt="avatar-img" />
-                        <h5>Coord. Administración</h5>
+                        <h5>Coord. Administ.</h5>
                         <p>Enzo Lambertini</p>
                     </div>
                 </div>

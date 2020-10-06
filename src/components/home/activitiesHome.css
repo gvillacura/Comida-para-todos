@@ -20,8 +20,8 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.75rem;
-    line-height: 46px;
+    font-size: 1.5rem;
+    line-height: 29px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -64,7 +64,7 @@
 .newsTitle {
     text-align: left;
     font-family: Montserrat;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #495057;
 }
 
@@ -72,7 +72,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.313rem;
     color: #212429;
 }

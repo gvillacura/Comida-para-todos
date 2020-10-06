@@ -4,13 +4,6 @@ import { Icon } from '@iconify/react';
 import packageIcon from '@iconify/icons-feather/package';
 import awardIcon from '@iconify/icons-feather/award';
 import layersIcon from '@iconify/icons-feather/layers';
-import heartIcon from '@iconify/icons-feather/heart';
-
-
-
-
-
-
 
 const JoinusHome = () => {
     return(
@@ -33,7 +26,7 @@ const JoinusHome = () => {
                     <p>Creemos que la soberanía alimentaria desempeña un papel importante para combatir el hambre, por ello puedes donar m2 para que contruyamos una huerta</p>
                 </div>
             </div>
-            <button type="button" className="donate-btn"><Icon icon={heartIcon} />Donar</button>
+            <button type="button" className="donate-btn">Donar</button>
         </div>
     )
 }

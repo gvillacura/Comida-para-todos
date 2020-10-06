@@ -1,6 +1,6 @@
 import React from "react";
 import "./network.css";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import codepenIcon from "@iconify/icons-feather/codepen";
 import globeIcon from "@iconify/icons-feather/globe";
 import truckIcon from "@iconify/icons-feather/truck";
@@ -25,6 +25,7 @@ const Network = () => {
             =1 almuerzo.
           </p>
         </div>
+        <hr></hr>
         <div>
           <h3>
             <Icon icon={codepenIcon} />
@@ -35,6 +36,7 @@ const Network = () => {
             red de micro productores.
           </p>
         </div>
+        <hr></hr>
         <div>
           <h3>
             <Icon icon={truckIcon} />
@@ -45,6 +47,7 @@ const Network = () => {
             almuerzos solidarios.
           </p>
         </div>
+        <hr></hr>
         <div>
           <h3>
             <Icon icon={coffeeIcon} />
@@ -55,6 +58,7 @@ const Network = () => {
             las comunidades.
           </p>
         </div>
+        <hr></hr>
         <div>
           <h3>
             <Icon icon={usersIcon} /> 5. Apadrinar

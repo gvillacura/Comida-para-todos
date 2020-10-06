@@ -5,6 +5,7 @@ import JoinUs from "./components/joinus/JoinUs";
 import AboutUs from "./components/about/About";
 import Activities from "./components/activities/Activities";
 import Home from "./components/home/Home";
+import Catalogue from "./components/catalogue/Catalogue";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
 
         <Route path="/activities">
           <Activities />
+        </Route>
+
+        <Route path="/catalogue">
+          <Catalogue />
         </Route>
       </Switch>
     </Router>

@@ -8,7 +8,7 @@ const HeaderHome = () => {
     return (
         <header className="header">
             <div>
-                <img src={logo} alt="logo" className="logo" />
+                <Link to="/"><img src={logo} alt="logo" className="logo" /></Link>
             </div>
             <nav>
                 <ul>
@@ -16,10 +16,7 @@ const HeaderHome = () => {
                         <Link to="/about">Nosotros</Link>
                     </li>
                     <li>
-                        <Link to="/activities">Actividades</Link>
-                    </li>
-                    <li>
-                        <Link to="">Catálogo</Link>
+                        <Link to="/catalogue">Catálogo</Link>
                     </li>
                     <li>
                         <Link to="/join">Sé parte</Link>

@@ -34,8 +34,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.313rem;
   color: #212429;
   padding-left: 15%;
 }
@@ -44,6 +44,11 @@
   color: #c05111;
   margin-top: 0;
   margin-left: 1%;
+}
+
+.resources-container > div:nth-child(1) > div {
+  width: fit-content;
+  padding: 0 1%;
 }
 
 .lunch-container > div > div > h3,
@@ -64,8 +69,9 @@
 .waysItemContainer hr {
   height: 19rem;
   margin: 2.7rem 1rem 0 0;
-  color: #dde2e5;
   border-style: solid;
+  background-color: #e1e4e680;
+  border-color: #e1e4e680;
 }
 
 .resources-container,
@@ -75,7 +81,7 @@
 }
 
 .lunch-container {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .resources-container > div:nth-child(1),

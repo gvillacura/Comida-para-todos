@@ -1,0 +1,45 @@
+.filter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.filter-container>form{
+    width: 30%;
+}
+
+select{
+    width: 22%;
+    border-color: #ACB5BD;
+    border-radius: 5px;
+    background-color:white;
+    padding: .5%;
+    color: #495057;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+option{
+    font-family: 'Roboto', sans-serif;
+    color: #495057;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    color: #495057;
+    font-size: 1rem;
+}
+
+.filter-container > form > label:nth-child(2){
+    margin-left: 2%;
+}
+
+.filter-container > form > label:nth-child(3){
+    margin-left: 2%;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}

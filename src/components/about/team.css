@@ -5,7 +5,7 @@
 }
 
 .team-member{
-    width:24%;
+    width:23%;
     box-sizing: border-box;
     padding: 2%;
     margin-bottom: 4%;
@@ -45,7 +45,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 22px;
     color: #495057;
     margin: 2% 0;
@@ -55,7 +55,7 @@
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 1.125rem;
+font-size: 0.875rem;
 line-height: 21px;
 color: #212429;
 margin: 1% 0;
