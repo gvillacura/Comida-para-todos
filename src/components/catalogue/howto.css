@@ -7,7 +7,9 @@
     margin-bottom: 5%;
     box-sizing: border-box;
 }
-
+.howto-container>div{
+    padding: 0 5%;
+}
 .howto-container>p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -27,7 +29,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #495057;
     margin-bottom: 0;
@@ -54,7 +56,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.125rem;
     color: #495057;
     margin: 15% auto 5% auto;
 }

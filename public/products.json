@@ -124,8 +124,8 @@
         "name": "Croquetas de lentejas y avena integral",
         "price": "$4.000",
         "producer": "+Saludable",
-        "location": "Prvidencia",
-        "phone": "56 9 2245 6712",
+        "location": "Providencia",
+        "phone": "+56 9 2245 6712",
         "category": ["salado", "vegano"],
         "photo": "imgProducts/croquetas.png",
         "description": "Croquetas hechas con lentejas y avena integral, exquisitamente condimentadas. Producto 100% vegano"
