@@ -1,3 +1,4 @@
+import data from '@iconify/icons-feather/x';
 import React, { useState, useEffect } from 'react';
 import ProductList from './ProductList';
 import './products.css';
@@ -12,18 +13,25 @@ const Products = () => {
             .then(data => setCatalogue(catalogue = data));
     }, []);
 
+    const filterData = (e) => {
+        console.log(e.target.value);
+        const newCatalogue = catalogue.filter(item => item.category === e.target.value)
+        console.log(newCatalogue);
+        setCatalogue(catalogue = newCatalogue); 
+    }
+
     return (
         <div className="container">
             <div className="filter-container">
                 <form>
                     <label>
-                        <input type="checkbox" value="dulce"></input> Dulce
+                        <input type="checkbox" value="dulce" onChange={filterData}></input> Dulce
                     </label>
                     <label>
-                        <input type="checkbox" value="salado"></input> Salado
+                        <input type="checkbox" value="salado" onChange={filterData}></input> Salado
                     </label>
                     <label>
-                        <input type="checkbox" value="vegano"></input> Vegano
+                        <input type="checkbox" value="vegano" onChange={filterData}></input> Vegano
                     </label>
                 </form>
                 
@@ -37,7 +45,7 @@ const Products = () => {
                 </select>
             </div>
             <div className="product-container">
-                <ProductList products={catalogue} />
+                <ProductList products={catalogue} key="list"/>
             </div>
         </div>
     )
