@@ -1,4 +1,4 @@
-.item{
+.item {
     width: 24%;
     margin-bottom: 4%;
     background: #FFFFFF;
@@ -8,12 +8,12 @@
 }
 
 
-.item>img{
+.item>img {
     width: 100%;
     margin: 0 auto;
 }
 
-.item>h5{
+.item>h5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -23,7 +23,7 @@
     margin: 4%;
 }
 
-.item>p{
+.item>p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -33,7 +33,7 @@
     margin: 3%;
 }
 
-.item>div{
+.item>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@
     box-sizing: border-box;
 }
 
-.item>div>button{
+.item>div>button {
     background-color: #C05111;
     padding: 6% 6% 4%;
     border-radius: 8px;
@@ -49,8 +49,8 @@
     cursor: pointer;
 }
 
-.item>div>h6{
-    font-family: Montserrat;
+.item>div>h6 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.81rem;
@@ -58,8 +58,8 @@
     margin: 0;
 }
 
-.item>div>button>svg{
-    color:white;
+.item>div>button>svg {
+    color: white;
     margin: 0;
     font-size: 1.5rem;
 }

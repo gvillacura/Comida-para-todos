@@ -1,10 +1,8 @@
-import React, from "react";
+import React from "react";
 import InstagramEmbed from "react-instagram-embed";
 import "./news.css";
 
 const News = () => {
- 
- 
   return (
     <div className="newsContainer">
       <div className="int-cont">

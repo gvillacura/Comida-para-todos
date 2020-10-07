@@ -24,14 +24,14 @@
 }
 
 .networkItemContainer>div>p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.188rem;
 }
 
-.networkItemContainer>hr{
+.networkItemContainer>hr {
     height: 6rem;
     margin: 5% 1% 0 1%;
     border-style: solid;

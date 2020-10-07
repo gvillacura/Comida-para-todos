@@ -18,7 +18,7 @@
     font-style: normal;
     font-size: 1rem;
     color: #FCFCFC;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .send-btn>button[disabled] {
@@ -27,7 +27,7 @@
     cursor: pointer;
     width: 182px;
     height: 48px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -44,7 +44,7 @@
 }
 
 .modal-items>h2 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 2.275rem;
     line-height: 2.875rem;
@@ -53,7 +53,7 @@
 }
 
 .modal-items>h4 {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1rem;
     color: #495057;
@@ -62,7 +62,7 @@
 }
 
 .modal-items>form>p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     font-size: 0.875rem;
     line-height: 1rem;
@@ -82,7 +82,7 @@ form {
     border-radius: 8px;
     width: 100%;
     height: 3rem;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.313rem;
     color: #495057;
 }

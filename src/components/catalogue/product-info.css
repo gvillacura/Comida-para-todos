@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.product-info{
+.product-info {
     width: 70%;
     display: flex;
     margin-left: 15%;
@@ -42,18 +42,18 @@
 
 }
 
-.product-info>img{
+.product-info>img {
     width: 40%;
 }
 
-.product-info > div{
+.product-info>div {
     margin-left: 5%;
     text-align: initial;
     padding: 2% 0;
     width: 55%;
 }
 
-.product-info > div > h3{
+.product-info>div>h3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -63,7 +63,7 @@
     margin-bottom: 1%;
 }
 
-.product-info > div > h4{
+.product-info>div>h4 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -73,21 +73,22 @@
     margin: 0;
 }
 
-.product-info > div > div{
+.product-info>div>div {
     display: flex;
     align-items: center;
     padding: 2% 0;
 }
 
-.product-info > div > div > button{
+.product-info>div>div>button {
     background-color: #C05111;
     padding: 3% 3% 1%;
-    color:white;
+    color: white;
     font-size: 1.5rem;
     border: none;
     border-radius: 5px;
 }
-.product-info > div > div > h5 {
+
+.product-info>div>div>h5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -97,7 +98,7 @@
     margin: 1%;
 }
 
-.product-info > div > h6 {
+.product-info>div>h6 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -107,8 +108,8 @@
     margin-bottom: 0;
 }
 
-.product-info > div > p{
-    font-family: Roboto;
+.product-info>div>p {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1rem;
@@ -117,7 +118,7 @@
     margin: 1%;
 }
 
-.product-info > div > h5 {
+.product-info>div>h5 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
