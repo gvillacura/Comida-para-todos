@@ -8,7 +8,20 @@
     margin: 5%;
 }
 
+
 .send-btn>button {
+    background: #C05111;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 182px;
+    height: 48px;
+    font-style: normal;
+    font-size: 1rem;
+    color: #FCFCFC;
+    font-family: Montserrat;
+}
+
+.send-btn>button[disabled] {
     background: #C05111;
     border-radius: 8px;
     cursor: pointer;
@@ -48,15 +61,21 @@
     margin: 3% 0;
 }
 
-.modal-items>p {
+.modal-items>form>p {
     font-family: Roboto;
+    text-align: left;
     font-size: 0.875rem;
     line-height: 1rem;
     color: #212429;
     margin: 2% 0;
+    text-align: initial;
 }
 
-.modal-items>input {
+form {
+    width: 100%;
+}
+
+.modal-items>form>input {
     background: #FFFFFF;
     border: 1px solid #F8F9FA;
     box-sizing: border-box;
