@@ -17,7 +17,7 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 22px;
     color: #343434;
     margin: 4%;
@@ -27,7 +27,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 19px;
     color: #747474;
     margin: 3%;
@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5% 10%;
+    box-sizing: border-box;
 }
 
 .item>div>button{
@@ -51,8 +52,8 @@
 .item>div>h6{
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 1.75rem;
-    line-height: 2.125rem;
+    font-size: 1.5rem;
+    line-height: 1.81rem;
     color: #343434;
     margin: 0;
 }

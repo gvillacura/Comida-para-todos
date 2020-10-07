@@ -1,0 +1,128 @@
+.infomodal-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.infomodal-content {
+    position: fixed;
+    width: 80%;
+    left: 9%;
+    background-color: #F8F9FA;
+    padding: 1rem 1rem 1rem 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-modalinfo {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn-modalinfo>svg {
+    color: #C05111;
+    transform: rotate(360deg);
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.product-info{
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 13%;
+    border: solid 1px;
+
+}
+
+.product-info>img{
+    width: 40%;
+}
+
+.product-info > div{
+    margin-left: 5%;
+    text-align: initial;
+    padding: 2% 0;
+    width: 55%;
+}
+
+.product-info > div > h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 39px;
+    color: #495057;
+    margin-bottom: 1%;
+}
+
+.product-info > div > h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #ACB5BD;
+    margin: 0;
+}
+
+.product-info > div > div{
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.product-info > div > div > button{
+    background-color: #C05111;
+    padding: 3% 3% 1%;
+    color:white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+.product-info > div > div > h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #495057;
+    margin: 1%;
+}
+
+.product-info > div > h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #495057;
+    margin-bottom: 0;
+}
+
+.product-info > div > p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #ACB5BD;
+    margin: 1%;
+}
+
+.product-info > div > h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #495057;
+    margin: 0;
+}
