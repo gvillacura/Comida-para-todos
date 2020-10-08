@@ -1,18 +1,19 @@
-.sponsorsContainer{
+.sponsorsContainer {
     margin: 5% 5% 10%;
 }
+
 .sponsorsItemContainer>img {
-    width:100%;
+    width: 100%;
 }
 
-.sponsorsItemContainer{
+.sponsorsItemContainer {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-column-gap: 1%;
 }
 
 .sponsorsTitle {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     font-style: normal;
     font-weight: 700;
@@ -23,7 +24,7 @@
     justify-content: center;
 }
 
-#root > div.sponsorsContainer > div.sponsorsTitle > h4:nth-child(2){
+#root>div.sponsorsContainer>div.sponsorsTitle>h4:nth-child(2) {
     color: #C05111;
     margin-left: 1%;
 }

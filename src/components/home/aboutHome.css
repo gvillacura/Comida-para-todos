@@ -1,20 +1,20 @@
-.aboutHomeContainer{
+.aboutHomeContainer {
     display: flex;
     padding: 0px 20%;
 }
 
-img{
-    width:100%
+img {
+    width: 100%
 }
 
-.btn-donate{
+.btn-donate {
     position: absolute;
     left: 3%;
     top: 70%;
     width: 17%;
     height: 48px;
     background-color: #C05111;
-    color:white;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -25,30 +25,38 @@ img{
     cursor: pointer;
 }
 
-.btn-donate2{
+.btn-donate:hover {
+    background: #9D6232;
+}
+
+.btn-donate2 {
     position: absolute;
     left: 3%;
     top: 70%;
     width: 17%;
     height: 48px;
     background-color: #C05111;
-    color:white;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     border: none;
     cursor: pointer;
-    margin-left:5%;
+    margin-left: 5%;
     text-transform: uppercase;
     cursor: pointer;
 }
 
-.aboutHomeItem{
+.btn-donate2:hover {
+    background: #9D6232;
+}
+
+.aboutHomeItem {
     text-align: center;
 }
 
-.aboutHomeItem>p{   
+.aboutHomeItem>p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -68,22 +76,22 @@ img{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    color:#495057;
+    color: #495057;
     padding: 0 10%;
     margin: 10% auto auto;
 }
 
-#root > div.aboutHomeContainer > div:nth-child(1) > h4:nth-child(2){
+#root>div.aboutHomeContainer>div:nth-child(1)>h4:nth-child(2) {
     color: #C05111;
     margin-top: 0;
 }
 
-#root > div.aboutHomeContainer > div:nth-child(2) > h4:nth-child(2){
+#root>div.aboutHomeContainer>div:nth-child(2)>h4:nth-child(2) {
     color: #C05111;
     margin-top: 0;
 }
 
-.aboutHomeItem>button{
+.aboutHomeItem>button {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -102,3 +110,8 @@ img{
     cursor: pointer;
 }
 
+.aboutHomeItem>button:hover {
+    border: 1px solid #795F43;
+    color: #795F43;
+    font-weight: bold;
+}

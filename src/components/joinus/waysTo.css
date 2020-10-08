@@ -7,13 +7,13 @@
   align-items: center;
 }
 
-#root > div.waysContainer > div:nth-child(1) {
+#root>div.waysContainer>div:nth-child(1) {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
-.waysContainer > div > h4 {
+.waysContainer>div>h4 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -22,16 +22,16 @@
   margin: 0;
 }
 
-.lunch-container > div > div > h3 > svg,
-.resources-container > div > div > h3 > svg {
+.lunch-container>div>div>h3>svg,
+.resources-container>div>div>h3>svg {
   margin-right: 5%;
   color: #c05111;
   font-size: 1.5rem;
 }
 
-.lunch-container > div > div > p,
-.resources-container > div > div > p {
-  font-family: Roboto;
+.lunch-container>div>div>p,
+.resources-container>div>div>p {
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -40,19 +40,19 @@
   padding-left: 15%;
 }
 
-#root > div.waysContainer > div:nth-child(1) > h4:nth-child(2) {
+#root>div.waysContainer>div:nth-child(1)>h4:nth-child(2) {
   color: #c05111;
   margin-top: 0;
   margin-left: 1%;
 }
 
-.resources-container > div:nth-child(1) > div {
+.resources-container>div:nth-child(1)>div {
   width: fit-content;
   padding: 0 1%;
 }
 
-.lunch-container > div > div > h3,
-.resources-container > div > div > h3 {
+.lunch-container>div>div>h3,
+.resources-container>div>div>h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -84,8 +84,8 @@
   margin-right: 1rem;
 }
 
-.resources-container > div:nth-child(1),
-.lunch-container > div:nth-child(1) {
+.resources-container>div:nth-child(1),
+.lunch-container>div:nth-child(1) {
   display: flex;
   height: 80%;
   margin-bottom: 4%;
@@ -124,6 +124,17 @@
   background: transparent;
   cursor: pointer;
 }
-.waysto-donate-btn > svg {
+
+.contact-btn:hover {
+  border: 1px solid #795F43;
+  color: #795F43;
+  font-weight: bold;
+}
+
+.waysto-donate-btn>svg {
   margin-right: 5%;
+}
+
+.waysto-donate-btn:hover {
+  background: #9D6232;
 }

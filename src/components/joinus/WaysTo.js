@@ -6,7 +6,6 @@ import packageIcon from "@iconify/icons-feather/package";
 import awardIcon from "@iconify/icons-feather/award";
 import layersIcon from "@iconify/icons-feather/layers";
 import coffeeIcon from "@iconify/icons-feather/coffee";
-import heartIcon from "@iconify/icons-feather/heart";
 
 const JoinusHome = () => {
   const [showModal, setShowModal] = useState(false);
@@ -39,7 +38,6 @@ const JoinusHome = () => {
           </div>
           <div className="btn-container">
             <button type="button" className="waysto-donate-btn">
-              <Icon icon={heartIcon} />
               Donar
             </button>
           </div>

@@ -1,6 +1,6 @@
-.footerContainer{
+.footerContainer {
     background: #212429;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     padding: 3% 5% 2%;
     box-sizing: border-box;
@@ -13,44 +13,45 @@
 }
 
 .itemsContainer>div {
-    margin:0;
+    margin: 0;
 }
 
-.aboutFooter > h4 {
-    font-family: Roboto;
+.aboutFooter>h4 {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #ACB5BD;
 }
 
-.aboutFooter > h4:nth-child(1){
+.aboutFooter>h4:nth-child(1) {
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #ACB5BD;
 }
-.findUsFooter{
+
+.findUsFooter {
     width: 35%;
 }
 
-.findUsFooter > div {
+.findUsFooter>div {
     display: flex;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.findUsFooter > div > svg {
+.findUsFooter>div>svg {
     margin-right: 5%;
     font-size: 1.9375rem;
     color: #ACB5BD;
 }
 
-.findUsFooter > div > div > h4{
+.findUsFooter>div>div>h4 {
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -59,22 +60,22 @@
 
 .rrssFooter>h4 {
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #ACB5BD;
 }
 
-.rrssFooter>svg{
+.rrssFooter>svg {
     font-size: 1.56rem;
     margin: 5% 15% auto auto;
     color: #ACB5BD;
 }
 
-.pFooter{ 
-    margin:0 0 5% 0;
-    font-family: Roboto;
+.pFooter {
+    margin: 0 0 5% 0;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 0.875rem;
