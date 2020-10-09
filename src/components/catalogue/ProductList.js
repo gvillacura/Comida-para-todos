@@ -20,7 +20,7 @@ const ProductList = (props) => {
     return (
         props.products.map(item => {
             return (
-                <Fragment  key={item.id}>
+                <Fragment key={item.id}>
                     <ProductCard
                         img={item.photo}
                         name={item.name}

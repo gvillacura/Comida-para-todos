@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ProductList from './ProductList';
+import Map from './Map';
 import './products.css';
 
 const Products = () => {
@@ -105,6 +106,7 @@ const Products = () => {
             <div className="product-container">
                 <ProductList products={catalogue} key="list" />
             </div>
+            <Map />
         </div>
     )
 }
