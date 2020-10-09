@@ -6,7 +6,7 @@ import packageIcon from "@iconify/icons-feather/package";
 import awardIcon from "@iconify/icons-feather/award";
 import layersIcon from "@iconify/icons-feather/layers";
 import coffeeIcon from "@iconify/icons-feather/coffee";
-
+import toolTip from "../../img/Tool-Tip.png";
 const JoinusHome = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -37,9 +37,19 @@ const JoinusHome = () => {
             </div>
           </div>
           <div className="btn-container">
-            <button type="button" className="waysto-donate-btn">
-              Donar
-            </button>
+            <div>
+              <span>
+                <img src={toolTip} alt="tooltip-img" />
+              </span>
+              <a
+                target="blank"
+                href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
+              >
+                <button type="button" className="waysto-donate-btn">
+                  Donar
+                </button>
+              </a>
+            </div>
           </div>
         </div>
         <hr width="1" size="300"></hr>

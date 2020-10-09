@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "01",
         "name": "Mermelada de naranja",
         "price": "$3.500",
@@ -8,7 +7,7 @@
         "phone": "+56 9 8742 3558",
         "category": ["dulce", "vegano"],
         "photo": "imgProducts/mer-naranja.png",
-        "description": "Deliciosa mermelada de naranja, hechas con naranjas de huertas comunitarias. Producto 100% vegano."
+        "description": "Deliciosa mermelada de mandarina, hechas con naranjas de huertas comunitarias. Producto 100% vegano."
     },
     {
         "id": "02",
@@ -33,7 +32,8 @@
         "description": "Mousse suave y delicioso, hecho con cacao 75%."
 
     },
-    {    "id": "04",
+    {
+        "id": "04",
         "name": "Pan rústico",
         "price": "$1.100",
         "producer": "Pan y masas",
@@ -43,7 +43,8 @@
         "photo": "imgProducts/pan-rustico.png",
         "description": "salado"
     },
-    { "id": "05",
+    {
+        "id": "05",
         "name": "Hotcakes",
         "price": "$1.200",
         "producer": "Paola Cancino",
