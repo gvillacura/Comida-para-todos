@@ -91,7 +91,7 @@ img {
     margin-top: 0;
 }
 
-.aboutHomeItem>button {
+.about-btn{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -110,7 +110,7 @@ img {
     cursor: pointer;
 }
 
-.aboutHomeItem>button:hover {
+.about-btn:hover {
     border: 1px solid #795F43;
     color: #795F43;
     font-weight: bold;

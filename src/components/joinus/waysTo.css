@@ -138,3 +138,16 @@
 .waysto-donate-btn:hover {
   background: #9D6232;
 }
+
+span{
+  display:none;
+}
+span>svg{
+  float: left;
+}
+
+.btn-container:hover span {
+  display:block;
+  position:absolute;
+  overflow:hidden;
+}

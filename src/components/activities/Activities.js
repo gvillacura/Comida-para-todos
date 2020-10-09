@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import HeaderHome from '../header/HeaderHome';
 import Campaing from './Campaing';
-import Photos from './Photos'
+/* import Photos from './Photos' */
 import News from './News';
 
 const Activities = () => {
@@ -10,7 +10,7 @@ const Activities = () => {
             <HeaderHome />
             <div className="activitiesContainer">
                 <Campaing />
-                <Photos />
+                {/* <Photos /> */}
                 <News />
             </div>
         </Fragment>

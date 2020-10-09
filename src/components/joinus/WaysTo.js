@@ -37,7 +37,8 @@ const JoinusHome = () => {
             </div>
           </div>
           <div className="btn-container">
-            <button type="button" className="waysto-donate-btn">
+          <span><Icon icon={coffeeIcon} /></span>
+            <button title="Texto flotante" type="button" className="waysto-donate-btn">
               Donar
             </button>
           </div>

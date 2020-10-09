@@ -22,7 +22,7 @@ const ActivitiesHome = () => {
                     y junto a ustedes queremos llevar almuerzos dieciocheros a todos
                     los comedores sociales donde estamos.
                 </p>
-                    <Link to="/activities">Nuestras actividades <Icon icon={arrowRight} /></Link>
+                    <Link to="/join">Nuestras actividades <Icon icon={arrowRight} /></Link>
                 </div>
                 <div className="activitiesHomeDescription">
                     <h4 className="newsTitle">ORGULLOSOS DE LO </h4><h4 className="newsTitle">NUESTRO </h4>
