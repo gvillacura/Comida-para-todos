@@ -140,7 +140,6 @@
 .waysto-donate-btn:hover {
   background: #9D6232;
 }
-<<<<<<< HEAD
 span{
  visibility: hidden;
 }
@@ -159,18 +158,4 @@ span>img{
  visibility: visible;
     text-align: end;
     margin-right:14%;
-=======
-
-span{
-  display:none;
-}
-span>svg{
-  float: left;
-}
-
-.btn-container:hover span {
-  display:block;
-  position:absolute;
-  overflow:hidden;
->>>>>>> d6a186f805c0ffeca21bdad4c9333237804a90e1
 }

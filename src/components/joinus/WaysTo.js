@@ -37,7 +37,6 @@ const JoinusHome = () => {
             </div>
           </div>
           <div className="btn-container">
-<<<<<<< HEAD
             <div>
               <span>
                 <img src={toolTip} alt="tooltip-img" />
@@ -51,12 +50,6 @@ const JoinusHome = () => {
                 </button>
               </a>
             </div>
-=======
-          <span><Icon icon={coffeeIcon} /></span>
-            <button title="Texto flotante" type="button" className="waysto-donate-btn">
-              Donar
-            </button>
->>>>>>> d6a186f805c0ffeca21bdad4c9333237804a90e1
           </div>
         </div>
         <hr width="1" size="300"></hr>
