@@ -93,8 +93,8 @@
 
 .btn-container {
   display: flex;
-  width: 100%;
-  justify-content: center;
+    width: 100%;
+    flex-direction: column;
 }
 
 .waysto-donate-btn {
@@ -102,13 +102,14 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
-  width: 45%;
+  width: 100%;
   height: 48px;
   background-color: #c05111;
   color: white;
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  align-self: center;
 }
 
 .contact-btn {
@@ -123,6 +124,7 @@
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
+  align-self: center;
 }
 
 .contact-btn:hover {
@@ -138,16 +140,22 @@
 .waysto-donate-btn:hover {
   background: #9D6232;
 }
-
 span{
-  display:none;
-}
-span>svg{
-  float: left;
+ visibility: hidden;
 }
 
-.btn-container:hover span {
-  display:block;
-  position:absolute;
-  overflow:hidden;
+span>img{
+  width: auto;
+}
+
+.btn-container>div{
+  width: 50%;
+  align-self: center;
+  text-align: center;
+}
+
+.btn-container>div:hover span{
+ visibility: visible;
+    text-align: end;
+    margin-right:14%;
 }
