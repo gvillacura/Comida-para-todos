@@ -11,8 +11,8 @@
 
 .infomodal-content {
     position: fixed;
-    width: 80%;
-    left: 9%;
+    width: 70%;
+    left: 12%;
     background-color: #F8F9FA;
     padding: 1rem 1rem 1rem 1rem;
     height: 100%;
@@ -34,23 +34,50 @@
 }
 
 .product-info {
-    width: 70%;
+    width: 80%;
     display: flex;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 13%;
-    border: solid 1px;
-
+    border: none;
+    box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);
 }
 
-.product-info>img {
+
+.product-info > div:nth-child(1) {
     width: 40%;
+    padding: 3%;
 }
 
-.product-info>div {
+.product-info > div:nth-child(1) > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #212429;
+    margin-top: 8%;
+    text-align: left;
+}
+
+.product-info>div:nth-child(2) {
     margin-left: 5%;
     text-align: initial;
     padding: 2% 0;
     width: 55%;
+}
+.product-info > div:nth-child(2) > div:nth-child(1) > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #495057;
+    margin: 0;
+}
+
+.product-info > div:nth-child(2) > div:nth-child(1) {
+    width: 80%;
+    border-bottom: 1px solid #DDE2E5;
 }
 
 .product-info>div>h3 {
@@ -60,7 +87,12 @@
     font-size: 2rem;
     line-height: 39px;
     color: #495057;
-    margin-bottom: 1%;
+    margin: 2% auto 1% auto;
+}
+
+.product-info>div>h4>svg{
+    color: #C05111;
+    font-size: 1.5rem;
 }
 
 .product-info>div>h4 {
@@ -79,13 +111,9 @@
     padding: 2% 0;
 }
 
-.product-info>div>div>button {
-    background-color: #C05111;
-    padding: 3% 3% 1%;
-    color: white;
+.product-info>div>div>svg {
+    color: #C05111;
     font-size: 1.5rem;
-    border: none;
-    border-radius: 5px;
 }
 
 .product-info>div>div>h5 {
@@ -97,6 +125,21 @@
     color: #495057;
     margin: 1%;
 }
+.product-info > div:nth-child(2) > div:nth-child(5) > p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 16px;
+    color: #495057;
+    margin: 0;
+}
+
+.product-info > div:nth-child(2) > div:nth-child(5) {
+    width: 80%;
+    border-bottom: 1px solid #DDE2E5;
+    margin-top: 5%;
+}
 
 .product-info>div>h6 {
     font-family: 'Montserrat', sans-serif;
@@ -105,7 +148,7 @@
     font-size: 1.125rem;
     line-height: 22px;
     color: #495057;
-    margin-bottom: 0;
+    margin: 1% auto 0 ;
 }
 
 .product-info>div>p {

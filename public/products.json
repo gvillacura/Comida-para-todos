@@ -1,9 +1,10 @@
 [{
         "id": "01",
-        "name": "Mermelada de naranja",
-        "price": "$3.500",
+        "name": "Mermelada de mandarina",
+        "price": "$3.490",
         "producer": "Dulceria tu casa",
         "location": "San Miguel",
+        "contact": "Rosita Peréz",
         "phone": "+56 9 8742 3558",
         "category": ["dulce", "vegano"],
         "photo": "imgProducts/mer-naranja.png",
@@ -12,20 +13,22 @@
     {
         "id": "02",
         "name": "Pan de masa madre",
-        "price": "$1.000",
+        "price": "$990",
         "producer": "Pan y masas",
         "location": "Lo Espejo",
+        "contact": "Juan Donoso",
         "phone": "+56 9 8768 9531",
         "category": ["salado", "vegano"],
         "photo": "imgProducts/pan-mm.png",
-        "description": "Pan recién horneado preparado sin levadura"
+        "description": "Pan recién horneado, preparado sin levadura."
     },
     {
         "id": "03",
         "name": "Mousse de chocolate",
-        "price": "$1.500",
+        "price": "$1.490",
         "producer": "Dulces y algo mas",
         "location": "Estación Central",
+        "contact": "Pia Ortega",
         "phone": "+56 9 4025 6622",
         "category": "dulce",
         "photo": "imgProducts/mousse.png",
@@ -35,64 +38,70 @@
     {
         "id": "04",
         "name": "Pan rústico",
-        "price": "$1.100",
+        "price": "$1.190",
         "producer": "Pan y masas",
         "location": "Lo Espejo",
+        "contact": "Juan Donoso",
         "phone": "+56 9 8768 9531",
         "category": "salado",
         "photo": "imgProducts/pan-rustico.png",
-        "description": "salado"
+        "description": "Pan con gruesa corteza, hecho con harina de centeno. Ideal para una picada o delicioso sandwich."
     },
     {
         "id": "05",
         "name": "Hotcakes",
-        "price": "$1.200",
+        "price": "$1.190",
         "producer": "Paola Cancino",
         "location": "Macul",
+        "contact": "Paola Cancino",
         "phone": "+56954823889",
         "category": ["dulce"],
         "photo": "imgProducts/hotcakes.png",
-        "description": "Hotcakes esponjosos ideales para acompañarlos con mermelada, manjar, quedo crema y muchos más"
+        "description": "Hotcakes esponjosos ideales para acompañarlos con mermelada, manjar, queso crema y muchos más."
     },
     {
         "id": "06",
         "name": "Ensalada mixta",
-        "price": "$1.000",
+        "price": "$990",
         "producer": "+Saludable",
         "location": "Providencia",
+        "contact": "Julio Veliz",
         "phone": "+56 9 2245 6712",
         "category": "salado",
         "photo": "imgProducts/salad.png",
-        "description": "Ensalada con mix de verdes, tomates frescos, rabanitos y frutos secos. Aderezada con una vinagreta de mostaza, aceite de oliva y aceto balsámico"
+        "description": "Ensalada con mix de verdes, tomates frescos, rabanitos y frutos secos. Aderezada con una vinagreta de mostaza, aceite de oliva y aceto balsámico."
     },
     {
         "id": "07",
         "name": "Pizza Mediterranea",
-        "price": "$5.000",
+        "price": "$4.990",
         "producer": "Dil Horno",
         "location": "Providencia",
+        "contact": "Pedro Martinez",
         "phone": "+56 9 2445 3712",
         "category": "salado",
         "photo": "imgProducts/pizza-medi.png",
-        "description": "Masa a la piedra, salsa de tomates hecha en casa, queso mozzarella, aceitunas negras, oregano, anchoas. Producto 100% artesanal"
+        "description": "Masa a la piedra, salsa de tomates hecha en casa, queso mozzarella, aceitunas negras, oregano, anchoas. Producto 100% artesanal."
     },
     {
         "id": "08",
         "name": "Merengues rosa",
-        "price": "$800",
+        "price": "$790",
         "producer": "Dulces momentos",
-        "location": "La reina",
+        "location": "La Reina",
+        "contact": "Carolina Suarez",
         "phone": "+56994165582",
         "category": ["dulce"],
         "photo": "imgProducts/merengues.png",
-        "description": "Bocadillos de merengues dulces en forma de rosas"
+        "description": "Bocadillos de merengues dulces en forma de rosas."
     },
     {
         "id": "09",
         "name": "Samosas",
-        "price": "$2.000",
+        "price": "1.990",
         "producer": "Delicias Medioriente",
-        "location": "Las condes",
+        "location": "Las Condes",
+        "contact": "Alisha Khalil",
         "phone": "+56 9 6925 3170",
         "category": "salado",
         "photo": "imgProducts/samosas.png",
@@ -101,34 +110,37 @@
     {
         "id": "10",
         "name": "Kuchen de manzana",
-        "price": "$2.500",
+        "price": "$2.490",
         "producer": "Juana Oyarzún",
         "location": "La Cisterna",
+        "contact": "Juana Oyarzún",
         "phone": "+56999542286",
         "category": ["dulce"],
         "photo": "imgProducts/kuchen.png",
-        "description": "Delicioso Kuchen de manzana, receta tradicional ideal para la hora del té"
+        "description": "Delicioso Kuchen de manzana, receta tradicional ideal para la hora del té."
     },
     {
         "id": "11",
         "name": "Empanada de Pino",
-        "price": "$1.500",
+        "price": "$1.490",
         "producer": "Pan y Masas",
         "location": "Lo Espejo",
+        "contact": "Juan Donoso",
         "phone": "+56 9 8768 9531",
         "category": "salado",
         "photo": "imgProducts/empanadas.png",
-        "description": "Deliciosa empanada de pino, receta tradicional"
+        "description": "Deliciosa empanada de pino, receta tradicional."
     },
     {
         "id": "12",
         "name": "Croquetas de lentejas y avena integral",
-        "price": "$4.000",
+        "price": "$3.990",
         "producer": "+Saludable",
         "location": "Providencia",
+        "contact": "Julio Veliz",
         "phone": "+56 9 2245 6712",
         "category": ["salado", "vegano"],
         "photo": "imgProducts/croquetas.png",
-        "description": "Croquetas hechas con lentejas y avena integral, exquisitamente condimentadas. Producto 100% vegano"
+        "description": "Croquetas hechas con lentejas y avena integral, exquisitamente condimentadas. Producto 100% vegano."
     }
 ]

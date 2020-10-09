@@ -1,6 +1,7 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import phoneIcon from '@iconify/icons-feather/phone';
+import plusIcon from '@iconify/icons-feather/plus';
+
 import './productList.css';
 
 const ProductCard = (props) => {
@@ -11,7 +12,7 @@ const ProductCard = (props) => {
             <p>{props.producer}</p>
             <div>
                 <h6>{props.price}</h6>
-                <button type="button" onClick={props.open}><Icon icon={phoneIcon} /></button>
+                <button type="button" onClick={props.open}><Icon icon={plusIcon} /></button>
             </div>
         </div>
     )

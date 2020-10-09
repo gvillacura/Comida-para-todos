@@ -4,7 +4,7 @@ import ImageJoinus from "./ImageJoinus";
 import Infogram from "../home/Infogram";
 import Network from "./Network";
 import WaysTo from "./WaysTo";
-import ActivitiesHome from "../home/ActivitiesHome";
+import InstagramGallery from "./InstagramGallery"
 import Sponsors from "../home/Sponsors";
 import Footer from "../footer/Footer";
 
@@ -16,7 +16,7 @@ const JoinUs = () => {
       <Infogram />
       <Network />
       <WaysTo />
-      <ActivitiesHome />
+      <InstagramGallery/>
       <Sponsors />
       <Footer />
     </Fragment>
