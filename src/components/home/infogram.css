@@ -1,18 +1,20 @@
 .infogram-container{
-    display:flex;
-    justify-content: center;
-    width:60%;
-    box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);
     border-radius: 2px;
-    margin:0 auto 5% auto;
+    margin: 0 auto 5% auto;
     padding: 1%;
 }
 
-.infogram-container>div{
-    width:28%;
+.infogram-container>div>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.infogram-container>div>h4{
+.infogram-container>div>div>h4{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -20,12 +22,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color:#495057;
+    color: #495057;
     padding: 0;
-    margin: 10% auto auto;
+    margin: 0;
 }
 
-.infogram-container>div>h4>svg{
+.infogram-container>div>div>svg{
     color:#C05111;
     font-size: 1.8rem;
     margin-right: 5%;
@@ -42,3 +44,19 @@
     margin:0;
 }
 
+@media (max-width:376px){
+    .infogram-container{
+        width: 100%;
+        padding: 5% 0 1% 4%;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .infogram-container>div{
+        width: 28%;
+    }
+    
+    .infogram-container>div>div{
+        display:block
+    }
+}

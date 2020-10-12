@@ -9,17 +9,26 @@ const Infogram = () => {
     return (
         <div className="infogram-container">
             <div>
-                <h4><InlineIcon icon={userIcon} /> 97.644</h4>
+                <div>
+                    <InlineIcon icon={userIcon} />
+                    <h4>97.644</h4>
+                </div>
                 <p>ALMUERZOS SOLIDARIOS</p>
                 <p>ENTREGADOS</p>
             </div>
             <div>
-                <h4><InlineIcon icon={mapPin} /> 10</h4>
+                <div>
+                    <InlineIcon icon={mapPin} />
+                    <h4>10</h4>
+                </div>
                 <p>COMUNAS</p>
                 <p>BENEFICIADAS</p>
             </div>
             <div>
-                <h4><InlineIcon icon={homeIcon} /> 28</h4>
+                <div>
+                    <InlineIcon icon={homeIcon} />
+                    <h4>28</h4>
+                </div>
                 <p>COMEDORES</p>
                 <p>AYUDADOS</p>
             </div>
