@@ -73,3 +73,79 @@
     width: 30%;
     padding: 0 2% 4% 0;
 }
+
+@media (max-width:376px){
+
+    .networkContainer{
+        width: 95%;
+        margin: 10% 2% 5% 2%;
+    }
+
+    .networkContainer>div>h4 {
+        font-size: 1.5rem;
+    }
+
+    #root>div.networkContainer>div:nth-child(1){
+        width: 100%;
+    }
+
+    .networkItemContainer{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        scroll-snap-type: x mandatory; 
+        box-sizing: border-box;
+        justify-content: initial;
+        border-radius: 2px;
+    }
+
+    .networkItemContainer>div {
+        width:70%;
+        flex: 0 0 70%;
+        object-fit: cover;
+        scroll-snap-align: center; 
+        margin-left: 2%;
+    }
+
+    #root > div.waysContainer{
+        margin-top: 20%;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer > div.lunch-container > div.btn-container > div{
+        width:100%;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer > div.lunch-container{
+        background: #F8F9FA;
+        width:80%;
+        padding: 0 5% 5%;
+        margin: 0 auto;
+    }
+
+    .lunch-container > div.btn-container > div > a > button{
+        width: 100%;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer{
+        display: block;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer > div.lunch-container > div.btn-container > div > span{
+        display: none;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer > hr{
+        display: none;
+    }
+
+    #root > div.waysContainer > div.waysItemContainer > div.resources-container > div:nth-child(1){
+        display: block;
+        width: 75%;
+        margin:0 auto;
+    }
+
+    .btn-container > button{
+        width:80%
+    }
+}

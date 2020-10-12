@@ -25,3 +25,17 @@
     color: #495057;
     text-align: left;
 }
+
+@media (max-width:376px){
+    .modalMessage-container {
+        position: absolute;
+        background-color: #F8F9FA;
+        padding: 25% 15%;
+        height: -moz-fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        top: 60px;
+        left: 0;
+    }
+}

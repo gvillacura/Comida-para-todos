@@ -86,3 +86,13 @@ form {
     font-size: 1.313rem;
     color: #495057;
 }
+
+@media (max-width:376px){
+    #root > div.waysContainer > div.modal-container > div > div.modal-items{
+        padding: 0;
+    }
+
+    #root > div.waysContainer > div.modal-container > div > div.modal-items > div{
+        margin: 5% 0 0;
+    }
+}
