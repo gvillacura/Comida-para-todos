@@ -7,51 +7,6 @@ img {
     width: 100%
 }
 
-.btn-donate {
-    position: absolute;
-    left: 3%;
-    top: 70%;
-    width: 17%;
-    height: 48px;
-    background-color: #C05111;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.btn-donate:hover {
-    background: #9D6232;
-}
-
-.btn-donate2 {
-    position: absolute;
-    left: 3%;
-    top: 70%;
-    width: 17%;
-    height: 48px;
-    background-color: #C05111;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    margin-left: 5%;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.btn-donate2:hover {
-    background: #9D6232;
-}
-
 .aboutHomeItem {
     text-align: center;
 }
@@ -115,3 +70,4 @@ img {
     color: #795F43;
     font-weight: bold;
 }
+
