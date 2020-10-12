@@ -1,11 +1,15 @@
 import React from "react";
 import "./info.css";
 import usHero from "../../img/usHero.png";
+import usHeroA from "../../img/usHeroA.png";
 
 const Info = () => {
   return (
     <div className="container-info">
-      <img src={usHero} alt="us-img" />
+      <picture>
+        <source srcSet={usHeroA} media="(max-width:376px)" />
+        <img src={usHero} alt="us-img" />
+      </picture>
       <div>
         <h1 className="us-title">ACERCA DE</h1>
         <h1 className="us-title">NOSOTROS</h1>

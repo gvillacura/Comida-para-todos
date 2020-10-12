@@ -87,6 +87,15 @@ span, span>svg{
         display: none;
     }
 
+    .header>div{
+        background-color: #C05111;
+        border-radius: 0 0 8px 8px;
+        border: none;
+        padding: 2.5% 2%;
+        margin-left: 5%;
+        height: 105%;
+    }
+
     nav{
         display: none;
     }

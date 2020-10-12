@@ -107,9 +107,10 @@
     }
 
     .aboutFooter{
-    position: absolute;
+        display: none;
+    /* position: absolute;
     top: 472vh;
-    left: 2%;
+    left: 2%; */
     }
 
     .aboutFooter>h4:nth-child(1){

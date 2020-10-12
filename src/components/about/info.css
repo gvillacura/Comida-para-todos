@@ -38,3 +38,22 @@
     padding: 0 15%;
 }
 
+@media (max-width:376px){
+    .container-info>div>h1{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color:#495057;
+    }
+
+    .container-info>p{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.313rem;
+        color: #212429;
+        padding: 0 5%;
+    }
+}
