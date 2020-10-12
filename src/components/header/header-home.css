@@ -74,7 +74,11 @@ li{
     transition: none;
 }
 
-@media (min-width: 375px){
+span, span>svg, header > div:nth-child(4){
+    display: none;
+}
+
+@media (max-width: 375px){
     .hide{
         display: none;
     }

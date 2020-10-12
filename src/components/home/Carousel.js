@@ -15,20 +15,20 @@ const Slider = () => {
         <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false} showIndicators={false}>
             <div>
                 <picture>
-                    <source srcSet={Hero1a} media="(min-width: 375px)"/>
+                    <source srcSet={Hero1a} media="(max-width: 375px)"/>
                     <img src={Hero1} alt="img-slider1" />
                     <Link to="/join"><button type="button" className="btn-donate">Súmate</button></Link>
                 </picture>
             </div>
                 <div>
                     <picture>
-                        <source srcSet={Hero2a} media="(min-width: 375px)" />
+                        <source srcSet={Hero2a} media="(max-width: 375px)" />
                         <img src={Hero2} alt="img-slider2" />
                     </picture>
                 </div>
                 <div>
                     <picture>
-                        <source srcSet={Hero3a} media="(min-width: 375px)" />
+                        <source srcSet={Hero3a} media="(max-width: 375px)" />
                         <img src={Hero3} alt="img-slider3" />
                         <Link to="/catalogue"><button type="button" className="btn-donate2">Visitanos</button></Link>
                     </picture>
