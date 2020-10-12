@@ -71,3 +71,9 @@ img {
     font-weight: bold;
 }
 
+@media (max-width: 376px){
+    .aboutHomeContainer{
+        display: block;
+        margin-top: 15%;
+    }
+}
