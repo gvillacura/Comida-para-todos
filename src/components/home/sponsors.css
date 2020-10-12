@@ -28,3 +28,24 @@
     color: #C05111;
     margin-left: 1%;
 }
+
+@media (max-width:376px){
+    .sponsorsItemContainer{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto 0px;
+    }
+
+    .sponsorsTitle{
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    .sponsorsTitle>h4{
+        margin:1% auto;
+    }
+
+    .sponsorsContainer > div.sponsorsTitle > h4:nth-child(2){
+        margin-bottom: 10%;
+    }
+}
