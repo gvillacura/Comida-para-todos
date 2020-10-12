@@ -38,7 +38,7 @@ const HeaderHome = () => {
                 </ul>
             </nav>
             <span onClick={openMenu}><Icon icon={menuIcon} /></span>
-            <div ref={menu} className="hide">
+            <div ref={menu} className="hide" className="hide">
                 <Icon onClick={closeMenu} icon={xIcon} />
                 <ul>
                     <li>

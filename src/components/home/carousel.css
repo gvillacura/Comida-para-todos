@@ -50,7 +50,7 @@
     background: #9D6232;
 }
 
-@media (max-width:75px){
+@media (max-width:376px){
     .btn-donate {
         position: absolute;
         left: 10%;
