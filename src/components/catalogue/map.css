@@ -1,3 +1,32 @@
+.map-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-title> h4{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #495057;
+}
+
+.map-title > h4:nth-child(2){
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #C05111;
+}
+
 .map-container{
     width:90%;
     height:400px;
