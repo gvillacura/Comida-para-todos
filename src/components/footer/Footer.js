@@ -20,7 +20,6 @@ const Footer = () => {
             <div className="itemsContainer">
                 <div className="aboutFooter">
                     <h4>Nosotros</h4>
-                    <h4>Actividades</h4>
                     <h4>Catálogo</h4>
                     <h4>Sé parte</h4>
                 </div>

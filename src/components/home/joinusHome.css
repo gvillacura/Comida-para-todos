@@ -8,11 +8,12 @@
     box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);
 }
 
-#root>div.joinusHomeContainer>div:nth-child(1) {
+.joinusHomeContainer>div:nth-child(1) {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 .joinusHomeContainer>div>h4 {
@@ -83,4 +84,28 @@
 
 .donate-btn:hover {
     background: #9D6232;
+}
+
+@media (max-width:376px){
+    .joinusHomeContainer>div:nth-child(1){
+        display: block;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .joinusHomeItemContainer {
+        display: block;
+    }
+
+    .joinusHomeItemContainer>div {
+        width: 100%;
+        padding: 0 10%;
+        box-sizing: border-box;
+    }    
+
+    .donate-btn{
+        width: 50%;
+        margin-top: 10%;
+    }
+
 }

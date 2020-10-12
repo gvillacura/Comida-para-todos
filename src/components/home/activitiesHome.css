@@ -76,3 +76,10 @@
     line-height: 1.313rem;
     color: #212429;
 }
+
+@media (max-width:376px){
+    .activitiesHomeContainer{
+        grid-template-columns: auto;
+    }
+}
+

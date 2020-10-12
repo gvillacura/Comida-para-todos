@@ -87,3 +87,37 @@
     height: auto;
     margin: 2%;
 }
+
+@media (max-width:376px){
+    .itemsContainer{
+        display: block;
+        width: 100%;
+    }
+
+    .findUsFooter {
+        width: 100%;
+        padding: 2% 0 2% 10%;
+    }
+
+    .findUsFooter>div{
+        width: 90%;
+    }
+    .rrssFooter{
+        padding-left: 15%;
+    }
+
+    .aboutFooter{
+    position: absolute;
+    top: 472vh;
+    left: 2%;
+    }
+
+    .aboutFooter>h4:nth-child(1){
+        font-size: 1rem;
+    }
+    
+    .aboutFooter > h4{
+       margin: 10% auto;
+       font-size: 1rem;
+    }
+}
