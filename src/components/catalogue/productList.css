@@ -17,9 +17,9 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 22px;
-    color: #343434;
+    color: #495057;
     margin: 4%;
 }
 
@@ -27,7 +27,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 19px;
     color: #747474;
     margin: 3%;
@@ -35,31 +35,41 @@
 
 .item>div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 5% 10%;
+    padding: 5% 5%;
     box-sizing: border-box;
 }
 
 .item>div>button {
     background-color: #C05111;
-    padding: 6% 6% 4%;
+    margin-right: 4%;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    height: 2.25rem;
+    width: 2.25rem;
 }
 
-.item>div>h6 {
+.item>h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.81rem;
     color: #343434;
-    margin: 0;
+    margin: 4%;
 }
 
 .item>div>button>svg {
     color: white;
     margin: 0;
     font-size: 1.5rem;
+}
+
+.item>div>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C05111;
 }
