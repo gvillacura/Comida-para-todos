@@ -10,6 +10,8 @@ import toolTip from "../../img/Tool-Tip.png";
 const JoinusHome = () => {
   const [showModal, setShowModal] = useState(false);
 
+  const [showSpan, setShowSpan] = useState(true);
+
   const closeModal = () => {
     setShowModal(false);
   };
@@ -18,12 +20,11 @@ const JoinusHome = () => {
   };
   return (
     <div className="waysContainer">
-      <div>
-        <h4>TÚ PUEDES</h4>
-        <h4>SER PARTE</h4>
-      </div>
       <div className="waysItemContainer">
         <div className="lunch-container">
+          <div className="lunch-container-title">
+            <h3>DONAR</h3>
+          </div>
           <div>
             <div>
               <h3>
@@ -35,25 +36,33 @@ const JoinusHome = () => {
                 de comida, es cariño y cuidado.
               </p>
             </div>
-          </div>
-          <div className="btn-container">
-            <div>
-              <span>
-                <img src={toolTip} alt="tooltip-img" />
-              </span>
-              <a
-                target="blank"
-                href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
-              >
-                <button type="button" className="waysto-donate-btn">
-                  Donar
-                </button>
-              </a>
+            <div className="btn-container">
+              <div>
+                <span disabled={showSpan}>
+                  <img src={toolTip} alt="tooltip-img" />
+                </span>
+                <a
+                  target="blank"
+                  href="https://yodono.cl/proyecto/207/CultivaComidaparaTods"
+                >
+                  <button
+                    type="button"
+                    className="waysto-donate-btn"
+                    onMouseEnter={() => setShowSpan(true)}
+                    onMouseLeave={() => setShowSpan(false)}
+                  >
+                    Donar
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <hr width="1" size="300"></hr>
         <div className="resources-container">
+          <div className="resources-container-title">
+            <h3>OTRAS</h3>
+            <h3>DONACIONES</h3>
+          </div>
           <div>
             <div>
               <h3>
