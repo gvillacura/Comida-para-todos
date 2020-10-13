@@ -8,6 +8,9 @@ import Sponsors from "../home/Sponsors";
 import Footer from "../footer/Footer";
 
 const JoinUs = () => {
+
+  const textA="ELLOS"
+  const textB="TAMBIÉN DONARON"
   return (
     <Fragment>
       <ImageJoinus />
@@ -15,7 +18,7 @@ const JoinUs = () => {
       <Network />
       <WaysTo />
       <InstagramGallery />
-      <Sponsors />
+      <Sponsors text1={textA} text2={textB} />
       <Footer />
     </Fragment>
   );

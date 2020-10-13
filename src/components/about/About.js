@@ -6,12 +6,16 @@ import Sponsors from "../home/Sponsors";
 import Footer from "../footer/Footer";
 
 const AboutUs = () => {
+
+  const textA = "NUESTROS";
+  const textB = "COLABORADORES";
+
   return (
     <Fragment>
       <Info />
       <Pillars />
       <Team />
-      <Sponsors />
+      <Sponsors text1={textA} text2={textB} />
       <Footer />
     </Fragment>
   );

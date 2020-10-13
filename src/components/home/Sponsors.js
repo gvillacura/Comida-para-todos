@@ -9,12 +9,12 @@ import Sponsor6 from '../../img/sponsor6.png';
 import Sponsor7 from '../../img/sponsor7.png';
 import Sponsor8 from '../../img/sponsor8.png';
 
-const Sponsors =() => {
+const Sponsors =(props) => {
     return(
         <div className="sponsorsContainer">
             <div className="sponsorsTitle">
-                <h4>NUESTROS</h4>
-                <h4>COLABORADORES</h4>
+                <h4>{props.text1}</h4>
+                <h4>{props.text2}</h4>
             </div>
             <div className="sponsorsItemContainer">
                 <img src={Sponsor1} alt="sponsor-img"/>

@@ -8,6 +8,10 @@ import Infogram from "./Infogram";
 import Sponsors from "./Sponsors";
 
 const Home = () => {
+
+  const textA = "NUESTROS";
+  const textB = "COLABORADORES";
+  
   return (
     <Fragment>
       <Slider />
@@ -15,7 +19,7 @@ const Home = () => {
       <AboutHome />
       <ActivitiesHome />
       <JoinusHome />
-      <Sponsors />
+      <Sponsors text1={textA} text2={textB}/>
       <Footer />
     </Fragment>
   );
