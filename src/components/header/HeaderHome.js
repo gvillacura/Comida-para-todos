@@ -29,7 +29,7 @@ const HeaderHome = () => {
             <Link to="/about">Nosotros</Link>
           </li>
           <li>
-            <Link to="/catalogue">Catálogo</Link>
+            <Link to="/catalogue">Feria CPT</Link>
           </li>
           <li>
             <Link to="/join">Sé parte</Link>
