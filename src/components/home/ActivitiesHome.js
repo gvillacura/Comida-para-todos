@@ -18,15 +18,16 @@ const ActivitiesHome = () => {
           <img src={act1} alt="activitiesHomeImg" />
         </div>
         <div className="activitiesHomeDescription">
-          <h4 className="newsTitle">UN 18 DIFERENTE</h4>
+          <div>
+            <h4 className="newsTitle">NUESTROS</h4>
+            <h4 className="newsTitle">PRODUCTOS</h4>
+          </div>
           <p>
             {" "}
-            ¡Hagamos posible un 18 para Todos! Se acercan las fiestas patrias y
-            junto a ustedes queremos llevar almuerzos dieciocheros a todos los
-            comedores sociales donde estamos.
+            Con mucho placer presentamos la primera línea de aliementos lanzada por nuestros emprendedores.
           </p>
-          <Link to="/join">
-            Nuestras actividades <Icon icon={arrowRight} />
+          <Link to="/catalogue">
+            Ver el Catálogo <Icon icon={arrowRight} />
           </Link>
         </div>
         <div className="activitiesHomeDescription">

@@ -51,6 +51,14 @@
     padding: 0 3%;
 }
 
+.activitiesHomeDescription>div{
+    display: flex;
+}
+
+.activitiesHomeContainer > div:nth-child(2) > div > h4:nth-child(2){
+    margin-left: 1%;
+} 
+
 .activitiesHomeDescription a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -80,6 +88,18 @@
 @media (max-width:376px){
     .activitiesHomeContainer{
         grid-template-columns: auto;
+    }
+
+    .activitiesHomeDescription>div{
+        display: block;
+    }
+
+    .activitiesHomeContainer > div:nth-child(2) > div > h4:nth-child(2){
+        margin-left: 0;
+    } 
+
+    #root > div.activitiesHomeContainer > div:nth-child(3){
+        order:1;
     }
 }
 
