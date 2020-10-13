@@ -37,26 +37,20 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 450;
-    font-size: 12px;
+    font-size: 14px;
     text-align: initial;
-    padding: 0 0 0 18%;
+    padding: 0 0 0 22%;
     color: #333333;
     margin:0;
 }
 
 @media (max-width:376px){
     .infogram-container{
-        width: 100%;
+        display: block;
+        width: 50%;
         padding: 5% 0 1% 4%;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
-    }
-
-    .infogram-container>div{
-        width: 28%;
-    }
-    
-    .infogram-container>div>div{
-        display:block
     }
 }

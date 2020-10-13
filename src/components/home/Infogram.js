@@ -13,8 +13,8 @@ const Infogram = () => {
                     <InlineIcon icon={userIcon} />
                     <h4>97.644</h4>
                 </div>
-                <p>ALMUERZOS SOLIDARIOS</p>
-                <p>ENTREGADOS</p>
+                <p>ALMUERZOS</p>
+                <p>SOLIDARIOS</p>
             </div>
             <div>
                 <div>
