@@ -170,3 +170,25 @@
     color: #495057;
     margin: 0;
 }
+
+@media (max-width:376px){
+
+    .product-info {
+        width: 90%;
+        margin-left: 2%;
+        margin-top: 2%;
+        flex-direction: column;
+    }
+    .product-info > div:nth-child(1) {
+        width: 100%;
+        padding: 3%;
+    }
+    .product-info > div:nth-child(2) {
+        width: 100%;
+        padding: 3%;
+    }
+    .product-info>div>h6 {
+        margin: 5% auto 0;
+    }
+    
+}

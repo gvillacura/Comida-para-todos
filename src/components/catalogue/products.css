@@ -43,3 +43,39 @@ label{
     padding: 5%;
     justify-content: space-between;
 }
+
+@media (max-width: 376px){
+    
+    .filter-container{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .filter-container>form {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    select {
+        width: 100%;
+        margin: 9% 0 5% 0;
+    }
+
+    .product-container{
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+        box-sizing: border-box;
+        justify-content: initial;
+    }
+
+    .item{
+        width: 70%;
+        flex: 0 0 70%;
+        object-fit: cover;
+        scroll-snap-align: center;
+        margin-left: 2%;
+    }
+}
