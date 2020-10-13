@@ -11,9 +11,9 @@
 
 .modal-content {
     position: fixed;
-    width: 80%;
-    left: 9%;
-    background-color: #F8F9FA;
+    width: 60%;
+    left: 18%;
+    background-color: #FFFFFF;
     padding: 1rem 1rem 1rem 1rem;
     height: 100%;
     display: flex;

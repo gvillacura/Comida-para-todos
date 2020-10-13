@@ -33,8 +33,9 @@ const FormModal = (props) => {
 
   return (
     <div className="modal-items">
-      <h2>¡Muchas gracias!</h2>
+      <h2>¡Hola!</h2>
       <h4 className="text-modal">
+        Estamos muy felices de que quieras colaborar.
         Por favor, llena la solicitud y te contestaremos a la brevedad posible.
       </h4>
       <form>

@@ -1,7 +1,7 @@
 .modalMessage-container {
     position: absolute;
-    background-color: #F8F9FA;
-    padding: 9rem 17rem 0 17rem;
+    background-color: #FFFFFF;
+    padding: 9rem 8rem 0 8rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
 @media (max-width:376px){
     .modalMessage-container {
         position: absolute;
-        background-color: #F8F9FA;
+        background-color: #FFFFFF;
         padding: 25% 15%;
         height: -moz-fit-content;
         height: fit-content;
