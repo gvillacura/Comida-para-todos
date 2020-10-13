@@ -110,6 +110,7 @@
   border: none;
   cursor: pointer;
   align-self: center;
+  text-transform: uppercase;
 }
 
 .contact-btn {
@@ -117,7 +118,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
-  width: 17%;
+  width: fit-content;
   height: 48px;
   border: 1px solid #c05111;
   color: #c05111;
@@ -125,6 +126,7 @@
   background: transparent;
   cursor: pointer;
   align-self: center;
+  text-transform: uppercase;
 }
 
 .contact-btn:hover {

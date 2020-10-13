@@ -1,6 +1,6 @@
 .aboutHomeContainer {
     display: flex;
-    padding: 0px 20%;
+    padding: 0px 15%;
 }
 
 img {
@@ -63,6 +63,7 @@ img {
     width: 56%;
     height: 47px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .about-btn:hover {
@@ -75,5 +76,10 @@ img {
     .aboutHomeContainer{
         display: block;
         margin-top: 15%;
+        padding: 0 1%;
+    }
+
+    .about-btn{
+        margin: auto;
     }
 }
