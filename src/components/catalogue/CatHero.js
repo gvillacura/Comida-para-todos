@@ -1,10 +1,14 @@
-import React from 'react';
-import cHero from '../../img/cHero.png';
+import React from "react";
+import cHero from "../../img/cHero.png";
+import cHeroA from "../../img/cHeroA.png";
 
 const CatHero = () => {
-    return (
-        <img src={cHero} className="cHero" alt="hero" />
-    )
-}
+  return (
+    <picture>
+      <source srcSet={cHeroA} media="(max-width:376px)" />
+      <img src={cHero} className="cHero" alt="hero" />
+    </picture>
+  );
+};
 
 export default CatHero;

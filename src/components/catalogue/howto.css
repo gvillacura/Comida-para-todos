@@ -75,3 +75,28 @@
     color: #212429;
     padding-left: 5%;
 }
+
+@media (max-width: 376px){
+    
+    .howto {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
+        box-sizing: border-box;
+        justify-content: initial;
+        border-radius: 2px;
+    }
+    .howto>div {
+        width: 70%;
+        flex: 0 0 70%;
+        object-fit: cover;
+        scroll-snap-align: center;
+        margin-left: 2%;
+    }
+
+    .howto-container>p{
+       display: none;
+    }
+}
