@@ -78,7 +78,7 @@ li{
     transition: none;
 }
 
-span, span>svg{
+.header-span, .header-span>svg{
     display: none;
 }
 
@@ -100,7 +100,7 @@ span, span>svg{
         display: none;
     }
 
-    span{
+    .header-span{
         width: 10%;
         margin-right: 8%;
         margin-top: 2%;
@@ -108,7 +108,7 @@ span, span>svg{
         visibility: visible;
     }
 
-    span>svg{
+    .header-span>svg{
         color:white;
         font-size: 2.5rem;
         display: block;

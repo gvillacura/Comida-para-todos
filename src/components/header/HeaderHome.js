@@ -29,14 +29,14 @@ const HeaderHome = () => {
             <Link to="/about">Nosotros</Link>
           </li>
           <li>
-            <Link to="/catalogue">Catálogo</Link>
+            <Link to="/catalogue">Feria CPT</Link>
           </li>
           <li>
             <Link to="/join">Sé parte</Link>
           </li>
         </ul>
       </nav>
-      <span onClick={openMenu}>
+      <span className="header-span" onClick={openMenu}>
         <Icon icon={menuIcon} />
       </span>
       <div ref={menu} className="hide">
