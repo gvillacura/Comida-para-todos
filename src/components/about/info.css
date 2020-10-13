@@ -56,4 +56,20 @@
         color: #212429;
         padding: 0 5%;
     }
+
+    .container-info > p:nth-child(5), .container-info > p:nth-child(6), .container-info > p:nth-child(7) {
+        display: none;
+    }
+
+    .show-more>h4{
+        font-family: 'Montserrat', sans-serif;
+        font-size: .875rem;
+        color:#C05111;
+        font-weight: 500;
+    }
+
+    .show-more>svg{
+        font-size: 1.7rem;
+        color:#C05111;
+    }
 }
