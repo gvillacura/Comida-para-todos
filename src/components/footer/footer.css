@@ -97,10 +97,11 @@
     .findUsFooter {
         width: 100%;
         padding: 2% 0 2% 10%;
+        box-sizing: border-box;
     }
 
     .findUsFooter>div{
-        width: 90%;
+        width: 99%;
     }
     .rrssFooter{
         padding-left: 15%;
@@ -108,9 +109,6 @@
 
     .aboutFooter{
         display: none;
-    /* position: absolute;
-    top: 472vh;
-    left: 2%; */
     }
 
     .aboutFooter>h4:nth-child(1){
