@@ -22,7 +22,7 @@ const ProductInfo = (props) => {
                                 </div>
                                 <div>
                                     <div>
-                                    <p>Contacto</p>
+                                        <p>Contacto</p>
                                     </div>
                                     <h3>{item.contact}</h3>
                                     <h4> <Icon icon={mapPin} /> {item.location}</h4>
@@ -31,7 +31,7 @@ const ProductInfo = (props) => {
                                         <h5>{item.phone}</h5>
                                     </div>
                                     <div>
-                                    <p>Detalle de produto</p>
+                                        <p>Detalle de produto</p>
                                     </div>
                                     <h6>{item.name}</h6>
                                     <p>{item.producer}</p>

@@ -11,18 +11,21 @@
 
 .infomodal-content {
     position: fixed;
-    width: 70%;
-    left: 12%;
+    width: 60%;
+    left: 18%;
+    top: 18%;
     background-color: #F8F9FA;
     padding: 1rem 1rem 1rem 1rem;
-    height: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 15px 10px -12px rgba(73, 80, 87, 0.18);
+    border-radius: 8px;
 }
 
 .btn-modalinfo {
-    display: flex;
-    flex-direction: row-reverse;
+    text-align: end;
 }
 
 .btn-modalinfo>svg {
@@ -34,12 +37,10 @@
 }
 
 .product-info {
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin-left: 12%;
-    margin-top: 13%;
     border: none;
-    box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);
+    
 }
 
 
