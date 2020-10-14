@@ -149,6 +149,8 @@ span[disabled]{
   align-self: center;
   text-align: center;
   margin-left: 10%;
+  display:flex;
+  flex-direction: column;
 }
 
 .resources-container-title{

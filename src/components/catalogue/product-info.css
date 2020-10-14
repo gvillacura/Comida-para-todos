@@ -11,9 +11,9 @@
 
 .infomodal-content {
     position: fixed;
-    width: 60%;
-    left: 18%;
-    top: 18%;
+    width: 80%;
+    left: 6%;
+    top: 7%;
     background-color: #F8F9FA;
     padding: 1rem 1rem 1rem 1rem;
     height: -moz-fit-content;

@@ -56,7 +56,7 @@ const HeaderHome = () => {
           <hr></hr>
           <li>
             <Link onClick={closeMenu} to="/catalogue">
-              Catálogo
+              Feria CPT
             </Link>
           </li>
           <hr></hr>

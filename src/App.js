@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import JoinUs from "./components/joinus/JoinUs";
 import AboutUs from "./components/about/About";
-import Activities from "./components/activities/Activities";
 import Home from "./components/home/Home";
 import Catalogue from "./components/catalogue/Catalogue";
 import Header from "./components/header/HeaderHome";
@@ -23,10 +22,6 @@ function App() {
 
         <Route path="/join">
           <JoinUs />
-        </Route>
-
-        <Route path="/activities">
-          <Activities />
         </Route>
 
         <Route path="/catalogue">
