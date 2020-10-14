@@ -53,6 +53,7 @@ a:focus, a:visited, a:active{
 
 #root > header > nav > ul > li:nth-child(3) > a{
     color:#EC8950;
+    background-image: linear-gradient(#EC8950, #EC8950);
 }
 
 ul{
