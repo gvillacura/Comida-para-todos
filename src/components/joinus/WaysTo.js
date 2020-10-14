@@ -10,7 +10,7 @@ import toolTip from "../../img/Tool-Tip.png";
 const JoinusHome = () => {
   const [showModal, setShowModal] = useState(false);
 
-  const [showSpan, setShowSpan] = useState(true);
+  const [showSpan, setShowSpan] = useState(false);
 
   const closeModal = () => {
     setShowModal(false);
