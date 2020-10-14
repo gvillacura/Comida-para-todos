@@ -23,17 +23,15 @@ const JoinusHome = () => {
       <div className="waysItemContainer">
         <div className="lunch-container">
           <div className="lunch-container-title">
-            <h3>DONAR</h3>
+            <h3>DONAR</h3><h3> ALMUERZO</h3>
           </div>
           <div>
             <div>
               <h3>
-                <Icon icon={coffeeIcon} />1 ALMUERZO
+                <Icon icon={coffeeIcon} />1 ALMUERZO = $3.000
               </h3>
               <p>
-                Donando un almuerzo solidario podrás ser parte de esta gran red
-                de ayuda en Chile y el mundo. Recuerda que no sólo es un plato
-                de comida, es cariño y cuidado.
+              Donando un almuerzo solidario podrás ser parte de esta gran red de ayuda en Chile y el mundo. Puedes donar 1 o más almuerzos,  todos será entregados con mucho cuidado y amor.
               </p>
             </div>
             <div className="btn-container">
@@ -58,8 +56,7 @@ const JoinusHome = () => {
             </div>
           </div>
         </div>
-        <div className="resources-container">
-          <div className="resources-container-title">
+        <div className="resources-container">          <div className="resources-container-title">
             <h3>OTRAS</h3>
             <h3>DONACIONES</h3>
           </div>

@@ -38,7 +38,11 @@
         width: 70%;
         height: fit-content;
         top: 10%;
-    }
+    }   
+}
 
-    
+@media (max-height:668px){
+    .modal-content{
+        top: 5%;
+    }
 }

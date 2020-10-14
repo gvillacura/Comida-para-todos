@@ -24,7 +24,7 @@ const ActivitiesHome = () => {
           </div>
           <p>
             {" "}
-            Con mucho placer presentamos la primera línea de aliementos lanzada por nuestros emprendedores.
+            Con mucho placer presentamos la primera línea de alimentos lanzada por nuestros emprendedores.
           </p>
           <Link to="/catalogue">
             Ir a Feria CPT <Icon icon={arrowRight} />

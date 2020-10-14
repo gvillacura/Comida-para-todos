@@ -67,8 +67,13 @@
     width: 30%;
 }
 
+.joinHome{
+    width: inherit;
+    text-align: center;
+}
+
 .donate-btn {
-    width: 17%;
+    width: 20%;
     height: 48px;
     background-color: #C05111;
     color: white;

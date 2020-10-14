@@ -1,5 +1,9 @@
-.donation-type {
+/* .donation-type {
     height: 7rem !important;
+} */
+
+#root > div.waysContainer > div.modal-container > div > div.modal-items > form > input.donation-type{
+    height: 7rem;
 }
 
 .send-btn {
@@ -95,4 +99,18 @@ form {
     #root > div.waysContainer > div.modal-container > div > div.modal-items > div{
         margin: 5% 0 0;
     }
+}
+
+@media (max-height:668px){
+    .modal-items>h2{
+        font-size: 2rem;
+    }
+
+    .modal-items>h4{
+        font-size: .8rem;
+    }
+    
+    #root > div.waysContainer > div.modal-container > div > div.modal-items > form > input.donation-type{
+        height: 5rem;
+    }    
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import './joinusHome.css';
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 import packageIcon from '@iconify/icons-feather/package';
 import awardIcon from '@iconify/icons-feather/award';
 import layersIcon from '@iconify/icons-feather/layers';
@@ -26,7 +27,7 @@ const JoinusHome = () => {
                     <p>Creemos que la soberanía alimentaria desempeña un papel importante para combatir el hambre, por ello puedes donar m2 para que contruyamos una huerta</p>
                 </div>
             </div>
-            <button type="button" className="donate-btn">Donar</button>
+            <Link className="joinHome" to="/join"><button type="button" className="donate-btn">Donar</button></Link>
         </div>
     )
 }

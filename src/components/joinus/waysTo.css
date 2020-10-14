@@ -52,8 +52,13 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #c05111;
+  color: #495057;
   margin: 0;
+}
+
+.lunch-container-title>h3:nth-child(2){
+  color: #c05111;
+  margin-left: 2%;
 }
 
 .resources-container,
@@ -65,7 +70,7 @@
 .lunch-container {
   align-items: center;
   width: 72%;
-  padding: 0 15%;
+  padding: 0 14% 6%;
 }
 
 .resources-container{
@@ -107,7 +112,7 @@
   margin: 4% 0;
   font-family: "Roboto", sans-serif;
   font-size: 1.125rem;
-  font-weight: bold;
+  font-weight: 400;
   height: 48px;
   border: 1px solid #c05111;
   color: #c05111;
@@ -157,18 +162,19 @@ span[disabled]{
   display: flex;
   padding: 0 11%;
   margin-top: 2%;
+  align-self: center;
 }
 
 .resources-container-title>h3{
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 1.125;
+  font-size: 1.5rem;
   color: #495057;
 }
 
 .resources-container-title>h3:nth-child(2){
   color: #c05111;
-  margin-left: 1%;
+  margin-left: 2%;
 }
 
 @media (max-width:376px){

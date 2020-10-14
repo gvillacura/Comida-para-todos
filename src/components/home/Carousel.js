@@ -30,7 +30,7 @@ const Slider = () => {
                     <picture>
                         <source srcSet={Hero3a} media="(max-width: 375px)" />
                         <img src={Hero3} alt="img-slider3" />
-                        <Link to="/catalogue"><button type="button" className="btn-donate2">Visitanos</button></Link>
+                        <Link to="/catalogue"><button type="button" className="btn-donate2">Visítanos</button></Link>
                     </picture>
                 </div>
         </Carousel>
