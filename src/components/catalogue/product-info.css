@@ -12,8 +12,8 @@
 .infomodal-content {
     position: fixed;
     width: 80%;
-    left: 6%;
-    top: 7%;
+    left: 9%;
+    top: 9%;
     background-color: #F8F9FA;
     padding: 1rem 1rem 1rem 1rem;
     height: -moz-fit-content;
@@ -199,6 +199,7 @@
     .infomodal-content{
         padding: .5rem 1rem 1rem 1rem;
         top:4%;
+        left: 5%;
     }
 
     div.product-info > div:nth-child(1) > img{

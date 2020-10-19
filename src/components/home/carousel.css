@@ -13,9 +13,9 @@
     height: 48px;
     background-color: #C05111;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: bold;
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -25,19 +25,20 @@
 
 .btn-donate:hover {
     background: #9D6232;
+    font-weight: bold;
 }
 
 .btn-donate2 {
     position: absolute;
-    left: 3%;
+    left: 6%;
     top: 70%;
     width: 17%;
     height: 48px;
     background-color: #C05111;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: bold;
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -48,6 +49,7 @@
 
 .btn-donate2:hover {
     background: #9D6232;
+    font-weight: bold;
 }
 
 @media (max-width:376px){
@@ -59,7 +61,7 @@
         height: 48px;
         background-color: #C05111;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
         font-weight: 400;
         border-radius: 8px;
@@ -77,7 +79,7 @@
         height: 48px;
         background-color: #C05111;
         color: white;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
         font-weight: 400;
         border-radius: 8px;

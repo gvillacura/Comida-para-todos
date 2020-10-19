@@ -20,6 +20,7 @@
     width: 182px;
     height: 48px;
     font-style: normal;
+    font-weight: bold;
     font-size: 1rem;
     color: #FCFCFC;
     font-family: 'Montserrat', sans-serif;
@@ -31,9 +32,9 @@
     cursor: pointer;
     width: 182px;
     height: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 16px;
     color: #FCFCFC;
     opacity: 0.5;
@@ -41,7 +42,7 @@
 
 .modal-items {
     align-items: flex-start;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     display: flex;
     flex-direction: column;
     padding: 0 20%;

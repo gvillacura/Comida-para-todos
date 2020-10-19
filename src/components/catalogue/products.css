@@ -15,7 +15,7 @@ select{
     padding: .5%;
     color: #495057;
     font-family: 'Roboto', sans-serif;
-    font-size: 21px;
+    font-size: 1.125rem;
     line-height: 25px;
 }
 
@@ -27,7 +27,7 @@ option{
 label{
     font-family: 'Roboto', sans-serif;
     color: #495057;
-    font-size: 1rem;
+    font-size: 1.125rem;
 }
 
 .filter-container > form > label:nth-child(2){

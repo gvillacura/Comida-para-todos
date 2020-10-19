@@ -30,7 +30,7 @@
   font-size: 1rem;
   line-height: 1.313rem;
   color: #212429;
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
 .resources-container>div:nth-child(1)>div {
@@ -96,7 +96,8 @@
 
 .waysto-donate-btn {
   margin-top: 4%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   font-size: 1.125rem;
   width: 65%;
   height: 48px;
@@ -110,9 +111,10 @@
 
 .contact-btn {
   margin: 4% 0;
-  font-family: "Roboto", sans-serif;
+  width: 16%;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: bold;
   height: 48px;
   border: 1px solid #c05111;
   color: #c05111;

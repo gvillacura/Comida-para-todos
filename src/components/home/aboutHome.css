@@ -51,9 +51,9 @@ img {
     justify-content: center;
     display: flex;
     margin: 0 10%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight: bold;
     border: 1px solid #C05111;
     box-sizing: border-box;
     border-radius: 8px;

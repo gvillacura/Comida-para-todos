@@ -27,7 +27,7 @@ const HowTo = () => {
             <Icon icon={mapPin} /> 2. COMUNA
           </h5>
           <p>
-            Al seleccionar “Comuna” se despliegará una lista para que elijas la
+            Al seleccionar “Comuna” se desplegará una lista para que elijas la
             comuna que más te convenga y así no alejarte mucho de tu pedido.
           </p>
         </div>
@@ -38,7 +38,7 @@ const HowTo = () => {
           </h5>
           <p>
             El botón de contacto te permitirá saber los datos del emprendedor
-            que vende el producto que deseas y así coordinar con el la
+            que vende el producto que deseas y así coordinar con él la
             transacción.
           </p>
         </div>
