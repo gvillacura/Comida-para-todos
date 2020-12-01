@@ -1,0 +1,85 @@
+.aboutHomeContainer {
+    display: flex;
+    padding: 0px 15%;
+}
+
+img {
+    width: 100%
+}
+
+.aboutHomeItem {
+    text-align: center;
+}
+
+.aboutHomeItem>p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: initial;
+    padding: 0 10%;
+    color: #333333;
+}
+
+.aboutHomeItem>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #495057;
+    padding: 0 10%;
+    margin: 10% auto auto;
+}
+
+#root>div.aboutHomeContainer>div:nth-child(1)>h4:nth-child(2) {
+    color: #C05111;
+    margin-top: 0;
+}
+
+#root>div.aboutHomeContainer>div:nth-child(2)>h4:nth-child(2) {
+    color: #C05111;
+    margin-top: 0;
+}
+
+.about-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 1px solid #C05111;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #C05111;
+    background: transparent;
+    padding: 2%;
+    width: 56%;
+    height: 47px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.about-btn:hover {
+    border: 1px solid #795F43;
+    color: #795F43;
+    font-weight: bold;
+}
+
+@media (max-width: 376px){
+    .aboutHomeContainer{
+        display: block;
+        margin-top: 15%;
+        padding: 0 1%;
+    }
+
+    .about-btn{
+        margin: auto;
+    }
+}

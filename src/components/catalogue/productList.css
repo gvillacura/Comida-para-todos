@@ -1,0 +1,75 @@
+.item {
+    width: 24%;
+    margin-bottom: 4%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(222, 222, 222, 0.25);
+    border-radius: 10px;
+    padding-bottom: 1%;
+}
+
+
+.item>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.item>h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #495057;
+    margin: 4%;
+}
+
+.item>p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 19px;
+    color: #747474;
+    margin: 3%;
+}
+
+.item>div {
+    display: flex;
+    align-items: center;
+    padding: 5% 5%;
+    box-sizing: border-box;
+}
+
+.item>div>button {
+    background-color: #C05111;
+    margin-right: 4%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+.item>h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.81rem;
+    color: #343434;
+    margin: 4%;
+}
+
+.item>div>button>svg {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.item>div>p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C05111;
+}

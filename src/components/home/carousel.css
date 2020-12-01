@@ -1,0 +1,89 @@
+.carousel .slide{
+    padding: 0;
+}
+.carousel .control-dots{
+    justify-content: center;
+}
+
+.btn-donate {
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    width: 17%;
+    height: 48px;
+    background-color: #C05111;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-donate:hover {
+    background: #9D6232;
+}
+
+.btn-donate2 {
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    width: 17%;
+    height: 48px;
+    background-color: #C05111;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-donate2:hover {
+    background: #9D6232;
+}
+
+@media (max-width:376px){
+    .btn-donate {
+        position: absolute;
+        left: 10%;
+        top: 85%;
+        width: 80%;
+        height: 48px;
+        background-color: #C05111;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .btn-donate2 {
+        position: absolute;
+        left: 10%;
+        top: 85%;
+        width: 80%;
+        height: 48px;
+        background-color: #C05111;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin-left: 0;
+        text-transform: uppercase;
+    }
+}

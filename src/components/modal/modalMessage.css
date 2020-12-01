@@ -1,0 +1,41 @@
+.modalMessage-container {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 9rem 8rem 0 8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    top: 73px;
+}
+
+.modalMessage-container>h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: initial;
+    font-weight: 800;
+    font-size: 2.375rem;
+    line-height: 2.875rem;
+    color: #C05111;
+}
+
+.modalMessage-container>h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: initial;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #495057;
+    text-align: left;
+}
+
+@media (max-width:376px){
+    .modalMessage-container {
+        position: absolute;
+        background-color: #FFFFFF;
+        padding: 25% 15%;
+        height: -moz-fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        top: 60px;
+        left: 0;
+    }
+}

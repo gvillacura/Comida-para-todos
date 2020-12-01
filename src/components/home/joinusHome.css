@@ -1,0 +1,111 @@
+.joinusHomeContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 10% 5% 5% 5%;
+    width: 90%;
+    align-items: center;
+    box-shadow: 0px 36px 28px -12px rgba(73, 80, 87, 0.18);
+}
+
+.joinusHomeContainer>div:nth-child(1) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.joinusHomeContainer>div>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #495057;
+    margin: 0;
+}
+
+.joinusHomeItemContainer>div>h3>svg {
+    margin-right: 2%;
+    color: #C05111;
+    font-size: 1.5rem;
+}
+
+.joinusHomeItemContainer>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #212429;
+    padding-left: 10%;
+}
+
+#root>div.joinusHomeContainer>div:nth-child(1)>h4:nth-child(2) {
+    color: #C05111;
+    margin-top: 0;
+    margin-left: 1%;
+}
+
+.joinusHomeItemContainer>div>h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: #495057;
+    display: flex;
+}
+
+.joinusHomeItemContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 2px;
+}
+
+.joinusHomeItemContainer>div {
+    width: 30%;
+}
+
+.donate-btn {
+    width: 17%;
+    height: 48px;
+    background-color: #C05111;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 2% 0 4.6% 0;
+    text-transform: uppercase;
+}
+
+.donate-btn:hover {
+    background: #9D6232;
+}
+
+@media (max-width:376px){
+    .joinusHomeContainer>div:nth-child(1){
+        display: block;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .joinusHomeItemContainer {
+        display: block;
+    }
+
+    .joinusHomeItemContainer>div {
+        width: 100%;
+        padding: 0 10%;
+        box-sizing: border-box;
+    }    
+
+    .donate-btn{
+        width: 50%;
+        margin-top: 10%;
+    }
+
+}

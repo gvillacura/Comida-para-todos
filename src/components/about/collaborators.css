@@ -1,0 +1,11 @@
+.coll-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coll-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    padding: 2% 5%;
+}

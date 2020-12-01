@@ -1,0 +1,105 @@
+.activitiesHomeContainer {
+    box-sizing: border-box;
+    width: 100%;
+    background: #F8F9FA;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    line-height: 0;
+    margin-top: 5%;
+}
+
+.activitiesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto 2%;
+}
+
+.activitiesTitle>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #495057;
+    padding-left: 1%;
+    margin: 0;
+}
+
+#root>div.activitiesTitle>h4:nth-child(2) {
+    color: #C05111;
+    margin: 0;
+}
+
+.activitiesHomeImg {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+}
+
+.activitiesHomeImg>img {
+    height: 100%;
+}
+
+.activitiesHomeDescription {
+    margin: 7%;
+    width: 80%;
+    padding: 0 3%;
+}
+
+.activitiesHomeDescription>div{
+    display: flex;
+}
+
+.activitiesHomeContainer > div:nth-child(2) > div > h4:nth-child(2){
+    margin-left: 1%;
+} 
+
+.activitiesHomeDescription a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C05111;
+}
+
+.newsTitle {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #495057;
+}
+
+.activitiesHomeDescription p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.313rem;
+    color: #212429;
+}
+
+@media (max-width:376px){
+    .activitiesHomeContainer{
+        grid-template-columns: auto;
+    }
+
+    .activitiesHomeDescription>div{
+        display: block;
+    }
+
+    .activitiesHomeContainer > div:nth-child(2) > div > h4:nth-child(2){
+        margin-left: 0;
+    } 
+
+    #root > div.activitiesHomeContainer > div:nth-child(3){
+        order:1;
+    }
+}
+

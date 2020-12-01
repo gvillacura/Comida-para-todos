@@ -1,0 +1,122 @@
+.footerContainer {
+    background: #212429;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5% 2%;
+    box-sizing: border-box;
+}
+
+.itemsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.itemsContainer>div {
+    margin: 0;
+}
+
+.aboutFooter>h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.aboutFooter>h4:nth-child(1) {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.findUsFooter {
+    width: 35%;
+}
+
+.findUsFooter>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.findUsFooter>div>svg {
+    margin-right: 5%;
+    font-size: 1.9375rem;
+    color: #ACB5BD;
+}
+
+.findUsFooter>div>div>h4 {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.rrssFooter>h4 {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ACB5BD;
+}
+
+.rrssFooter>svg {
+    font-size: 1.56rem;
+    margin: 5% 15% auto auto;
+    color: #ACB5BD;
+}
+
+.pFooter {
+    margin: 0 0 5% 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    color: #ACB5BD;
+}
+
+.logoFooter {
+    width: 63px;
+    height: auto;
+    margin: 2%;
+}
+
+@media (max-width:376px){
+    .itemsContainer{
+        display: block;
+        width: 100%;
+    }
+
+    .findUsFooter {
+        width: 100%;
+        padding: 2% 0 2% 10%;
+        box-sizing: border-box;
+    }
+
+    .findUsFooter>div{
+        width: 99%;
+    }
+    .rrssFooter{
+        padding-left: 15%;
+    }
+
+    .aboutFooter{
+        display: none;
+    }
+
+    .aboutFooter>h4:nth-child(1){
+        font-size: 1rem;
+    }
+    
+    .aboutFooter > h4{
+       margin: 10% auto;
+       font-size: 1rem;
+    }
+}

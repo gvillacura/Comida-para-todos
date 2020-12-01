@@ -1,0 +1,64 @@
+.gallery-container{
+    box-sizing: border-box;
+    width:100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery-container>div:nth-child(1){
+    text-align: center;
+}
+
+.gallery-container>div:nth-child(1)>a>h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #495057;
+    margin: 1% 0 5% 0;
+}
+
+.gallery-title{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-title>h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: #495057;
+    margin: 0;}
+
+#root>div.gallery-container>div>div:nth-child(1)>h3:nth-child(2){
+    color: #c05111;
+    margin-top: 0;
+    margin-left: 1%;
+}
+
+.item-gallery{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+}
+
+.item-gallery>img{
+    width: 100%;
+}
+
+@media (max-width:376px){
+    .gallery-title{
+        display: block;
+        text-align: center;
+        margin-top:5%;
+    }
+
+    .item-gallery{
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,0 +1,51 @@
+.map-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-title> h4{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #495057;
+}
+
+.map-title > h4:nth-child(2){
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 29px;
+  text-align: center;
+  margin-left: 1%;
+  text-transform: uppercase;
+  color: #C05111;
+}
+
+.map-container{
+    width:90%;
+    height:400px;
+    margin-left: 5%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+.pin {
+    display: flex;
+    align-items: center;
+    width: 180px;
+  }
+  .pin-icon {
+    font-size: 2rem;
+    color:#e95500;
+  }
+  
+  .pin-text {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
